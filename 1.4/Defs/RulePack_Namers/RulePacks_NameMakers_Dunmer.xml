@@ -1,94 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<!-- ========== [ESCP_Dunmer_NamerMale] ========== -->
 	<RulePackDef>
-		<defName>ESCP_NamerPersonDunmerMale</defName>
-		<rulePack>
-			<rulesStrings>
-				<li>name->[MaleList] [FamilyList]</li>
-				<li>name(p=0.05)->[MaleList] 'the [MorrowindAnimals] of [DunmerCities]' [FamilyList]</li>
-				<li>name(p=0.01)->[MaleList] 'chosen of [DunmerGods]' [FamilyList]</li>
-			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_File">
-					<keyword>MaleList</keyword>
-					<path>ESCP_DunmerNames/DunmerMale</path>
-				</li>
-				<li Class="Rule_File">
-					<keyword>FamilyList</keyword>
-					<path>ESCP_DunmerNames/DunmerFamily</path>
-				</li>
-			</rulesRaw>
-			<rulesFiles>
-				<li>MorrowindAnimals->ESCP_MiscMorrowindNames/MorrowindAnimals</li>
-				<li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
-				<li>DunmerGods->ESCP_DunmerNames/DunmerGods</li>
-			</rulesFiles>
-		</rulePack>
-	</RulePackDef>
-
-	<RulePackDef>
-		<defName>ESCP_NamerPersonDunmerFemale</defName>
-		<rulePack>
-			<rulesStrings>
-				<li>name->[FemaleList] [FamilyList]</li>
-					<li>name(p=0.05)->[FemaleList] 'the [MorrowindAnimals] of [DunmerCities]' [FamilyList]</li>
-				<li>name(p=0.01)->[FemaleList] 'chosen of [DunmerGods]' [FamilyList]</li>
-			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_File">
-					<keyword>FemaleList</keyword>
-					<path>ESCP_DunmerNames/DunmerFemale</path>
-				</li>
-				<li Class="Rule_File">
-					<keyword>FamilyList</keyword>
-					<path>ESCP_DunmerNames/DunmerFamily</path>
-				</li>
-			</rulesRaw>
-			<rulesFiles>
-				<li>MorrowindAnimals->ESCP_MiscMorrowindNames/MorrowindAnimals</li>
-				<li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
-				<li>DunmerGods->ESCP_DunmerNames/DunmerGods</li>
-			</rulesFiles>
-		</rulePack>
-	</RulePackDef>
-	
-	<RulePackDef>
-		<defName>ESCP_NamerPersonAshlanderMale</defName>
+		<defName>ESCP_Dunmer_NamerMale</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[MaleList] [FamilyList]</li>
 			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_File">
-					<keyword>MaleList</keyword>
-					<path>ESCP_AshlanderNames/AshlanderMale</path>
-				</li>
-				<li Class="Rule_File">
-					<keyword>FamilyList</keyword>
-					<path>ESCP_AshlanderNames/AshlanderFamily</path>
-				</li>
-			</rulesRaw>
+			<rulesFiles>
+				<li>MaleList->ESCP_DunmerNames/DunmerMale</li>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
-
+	<!-- ========== [ESCP_Dunmer_NamerFemale] ========== -->
 	<RulePackDef>
-		<defName>ESCP_NamerPersonAshlanderFemale</defName>
+		<defName>ESCP_Dunmer_NamerFemale</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->[FemaleList] [FamilyList]</li>
 			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_File">
-					<keyword>FemaleList</keyword>
-					<path>ESCP_AshlanderNames/AshlanderFemale</path>
-				</li>
-				<li Class="Rule_File">
-					<keyword>FamilyList</keyword>
-					<path>ESCP_AshlanderNames/AshlanderFamily</path>
-				</li>
-			</rulesRaw>
+			<rulesFiles>
+				<li>FemaleList->ESCP_DunmerNames/DunmerFemale</li>
+				<li>FamilyList->ESCP_DunmerNames/DunmerFamily</li>
+			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
-
+	<!-- ========== [ESCP_DunmerAshlander_NamerMale] ========== -->
+	<RulePackDef>
+		<defName>ESCP_DunmerAshlander_NamerMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[MaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>MaleList->ESCP_AshlanderNames/AshlanderMale</li>
+				<li>FamilyList->ESCP_AshlanderNames/AshlanderFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ========== [ESCP_DunmerAshlander_NamerFemale] ========== -->
+	<RulePackDef>
+		<defName>ESCP_DunmerAshlander_NamerFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[FemaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FemaleList->ESCP_AshlanderNames/AshlanderFemale</li>
+				<li>FamilyList->ESCP_AshlanderNames/AshlanderFamily</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
 </Defs>
