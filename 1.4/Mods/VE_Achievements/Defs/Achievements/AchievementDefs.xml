@@ -71,7 +71,7 @@
 	<AchievementsExpanded.AchievementDef ParentName="ESCP_Achievement_Base">
 		<defName>ESCP_AchievementDunmer_DunmerAshlanderSlayer</defName>
 		<label>They Were Coughing On Me</label>
-		<description>Slay 50 Dunmer</description>
+		<description>Slay 50 Dunmer Ashlanders</description>
 		<tracker Class="AchievementsExpanded.KillTracker">
 			<raceDef>ESCP_DunmerAshlanderRace</raceDef>
 			<count>50</count>
