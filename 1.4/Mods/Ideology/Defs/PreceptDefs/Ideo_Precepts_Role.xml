@@ -3,7 +3,7 @@
 	<PreceptDef ParentName="PreceptRoleSingleBase">
 		<defName>ESCP_Dunmer_IdeoRole_AncestorSpeaker</defName>
 		<label>Dunmer ancestor speaker</label>
-		<description>A special, Dunmer specific, ideoligious status focusing on calling upon the ancestors. This specialized role gives increased psychic sensitivity, and the ability to call upon the knowledge, and wroth, of the ancestors. Holders of this role will refuse to do many kinds of work.\n\nThis role is best suited for someone who is sensitive to the voices of the ancestors.</description>
+		<description>A special, Dunmer specific, ideoligious status focusing on calling upon the ancestors. This specialised role gives increased psychic sensitivity, and the ability to call upon the knowledge, and wroth, of the ancestors. Holders of this role will refuse to do many kinds of work.\n\nThis role is best suited for someone who is sensitive to the voices of the ancestors.</description>
 		<iconPath>UI/Roles/ESCP_DunmerSpecialistAncestorSpeaker</iconPath>
 		<nameMaker>ESCP_DunmerNamerRoleAncestorSpeaker</nameMaker>
 		<displayOrderInImpact>100</displayOrderInImpact>
