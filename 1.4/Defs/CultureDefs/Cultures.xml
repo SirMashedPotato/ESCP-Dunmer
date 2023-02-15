@@ -82,7 +82,6 @@
 		<defName>ESCP_DunmerAshlanderCulture</defName>
 		<label>Dunmer Ashlander</label>
 		<description>An ancient culture common among Dunmer Ashlander Tribes.</description>
-		<description>An ancient culture common among Dunmer Great Houses.</description>
 		<pawnNameMaker>ESCP_DunmerAshlander_NamerMale</pawnNameMaker>
 		<pawnNameMakerFemale>ESCP_DunmerAshlander_NamerFemale</pawnNameMakerFemale>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
@@ -93,14 +92,14 @@
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
-		<iconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlement</iconPath>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</iconPath>
 		<preferredWeaponClasses>
 			<noble>MeleePiercer</noble>
 			<despised>MeleeBlunt</despised>
 		</preferredWeaponClasses>
 		<thingStyleCategories>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
-				<category>ESCP_AshlanderStyle</category>
+				<category>ESCP_DunmerAshlanderStyle</category>
 				<priority>4</priority>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">

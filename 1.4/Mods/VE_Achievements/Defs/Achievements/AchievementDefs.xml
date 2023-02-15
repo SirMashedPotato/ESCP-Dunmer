@@ -118,7 +118,7 @@
 	<!-- ==========[ESCP_AchievementDunmer_FaithfulHouseDestroyer]========== -->
 	<AchievementsExpanded.AchievementDef ParentName="ESCP_Achievement_Base">
 		<defName>ESCP_AchievementDunmer_FaithfulHouseDestroyer</defName>
-		<label>Almsivi Can't Help You</label>
+		<label>ALMSIVI Can't Help You</label>
 		<description>Defeat a Faithful Great House faction</description>
 		<tracker Class="Mashed_VanillaAchievementsExpanded.FactionDefeatTracker">
 			<def>ESCP_DunmerNonPlayerFaction_Faithful</def>

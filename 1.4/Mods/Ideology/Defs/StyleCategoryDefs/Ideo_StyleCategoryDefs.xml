@@ -7,14 +7,20 @@
 		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</iconPath>
 		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
 		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
+		<thingDefStyles>
+
+		</thingDefStyles>
 	</StyleCategoryDef>
 	<!-- ==========[ESCP_DunmerAshlanderStyle]========== -->
 	<StyleCategoryDef>
 		<defName>ESCP_DunmerAshlanderStyle</defName>
 		<label>Ashlander</label>
-		<iconPath>World/WorldObjects/Expanding/ESCP_AshlanderSettlementSavage</iconPath>
+		<iconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlementSavage</iconPath>
 		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
 		<ritualVisualEffectDef>ESCP_Dunmeri</ritualVisualEffectDef>
+		<thingDefStyles>
+
+		</thingDefStyles>
 	</StyleCategoryDef>
 	<!-- ==========[ESCP_DunmerTribunal]========== -->
 	<StyleCategoryDef>
@@ -23,5 +29,8 @@
 		<iconPath>UI/Ideoligions/ESCP_DunmerA</iconPath>
 		<soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
 		<ritualVisualEffectDef>ESCP_DunmerTribunal</ritualVisualEffectDef>
+		<thingDefStyles>
+
+		</thingDefStyles>
 	</StyleCategoryDef>
 </Defs>

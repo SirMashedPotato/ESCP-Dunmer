@@ -40,10 +40,12 @@
 			<rulesStrings>
 				<li>r_name->[DunmerCities]</li>
 				<li>r_name(p=0.1)->Shrine of [DunmerGods]</li>
+				<li>r_name(p=0.1)->Shrine of Saint [DunmerSaints]</li>
 			</rulesStrings>
 			<rulesFiles>
 				<li>DunmerCities->ESCP_DunmerNames/DunmerCities</li>
 				<li>DunmerGods->ESCP_DunmerNames/DunmerGods</li>
+				<li>DunmerSaints->ESCP_DunmerNames/DunmerSaints</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>

@@ -45,7 +45,7 @@
 		<isBad>false</isBad>
 	</HediffDef>
 	<!-- ==========[ESCP_Dunmer_AncestralGuidance]========== -->
-	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+	<AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
 		<defName>ESCP_Dunmer_AncestralGuidance</defName>
 		<label>ancestral guidance</label>
 		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more resilient to mental breaks, with the psychic sensitivity of the Ancestor Speaker increasing the duration by 2 hours per 10% sensitivity, up to a maximum of five days.</description>
@@ -75,7 +75,7 @@
 		</stages>
 	</HediffDef>
 	<!-- ==========[ESCP_Dunmer_AncestralHealing]========== -->
-	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+	<AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
 		<defName>ESCP_Dunmer_AncestralHealing</defName>
 		<label>ancestral healing</label>
 		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will heal injuries faster, with the psychic sensitivity of the Ancestor Speaker increasing the duration by 2 hours per 10% sensitivity, up to a maximum of five days.</description>
@@ -105,7 +105,7 @@
 		</stages>
 	</HediffDef>
 	<!-- ==========[ESCP_Dunmer_AncestralProtection]========== -->
-	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+	<AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
 		<defName>ESCP_Dunmer_AncestralProtection</defName>
 		<label>ancestral protection</label>
 		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more adept at resisting damage, with the psychic sensitivity of the Ancestor Speaker increasing the duration by 2 hours per 10% sensitivity, up to a maximum of five days.</description>
@@ -135,7 +135,7 @@
 		</stages>
 	</HediffDef>
 	<!-- ==========[ESCP_Dunmer_AncestralSight]========== -->
-	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+	<AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
 		<defName>ESCP_Dunmer_AncestralSight</defName>
 		<label>ancestral sight</label>
 		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will be more open to psychic phenomena, with the psychic sensitivity of the Ancestor Speaker increasing the duration by 2 hours per 10% sensitivity, up to a maximum of five days.</description>
@@ -165,7 +165,7 @@
 		</stages>
 	</HediffDef>
 	<!-- ==========[ESCP_Dunmer_AncestralWisdom]========== -->
-	<AbilityDef ParentName="ESCP_DunmerAncestralBase">
+	<AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
 		<defName>ESCP_Dunmer_AncestralWisdom</defName>
 		<label>ancestral wisdom</label>
 		<description>Call upon the knowledge of the ancestors, passing it onto another. The target will gain skill experience faster, with the psychic sensitivity of the Ancestor Speaker increasing the duration by 2 hours per 10% sensitivity, up to a maximum of five days.</description>

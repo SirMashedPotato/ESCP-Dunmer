@@ -3,7 +3,7 @@
 	<!-- ==========[ESCP_Dunmer_TribalBase]========== -->
 	<PawnKindDef Name="ESCP_Dunmer_TribalBase" Abstract="True">
 		<race>ESCP_DunmerRace</race>
-		<defaultFactionType>ESCP_DunmerNonPlayerFaction_Kingdom</defaultFactionType>
+		<defaultFactionType>ESCP_DunmerNonPlayerFaction_Honourable</defaultFactionType>
 		<maxGenerationAge>150</maxGenerationAge>
 		<chemicalAddictionChance>0.05</chemicalAddictionChance>
 		<invNutrition>2.55</invNutrition>

@@ -3,7 +3,7 @@
 	<!-- ========== [ESCP_PlayerFactionBase_Industrial] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Industrial">
 		<defName>ESCP_DunmerAshlanderPlayerFaction_Industrial</defName>
-		<label>New DunmerAshlander Arrivals</label>
+		<label>New Dunmer Ashlander Arrivals</label>
 		<basicMemberKind>ESCP_DunmerAshlanderPlayerPawnKind_Outlander</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</factionIconPath>
 		<allowedCultures>
@@ -24,7 +24,7 @@
 	<!-- ========== [ESCP_DunmerAshlanderPlayerFaction_Medieval] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
 		<defName>ESCP_DunmerAshlanderPlayerFaction_Medieval</defName>
-		<label>New DunmerAshlander Kingdom</label>
+		<label>New Dunmer Ashlander Kingdom</label>
 		<basicMemberKind>ESCP_DunmerAshlanderPlayerPawnKind_Medieval</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</factionIconPath>
 		<allowedCultures>
@@ -45,7 +45,7 @@
 	<!-- ========== [ESCP_DunmerAshlanderPlayerFactionBase_Tribal] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
 		<defName>ESCP_DunmerAshlanderPlayerFaction_Tribal</defName>
-		<label>New DunmerAshlander Tribe</label>
+		<label>New Dunmer Ashlander Tribe</label>
 		<basicMemberKind>ESCP_DunmerAshlanderPlayerPawnKind_Tribal</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerAshlanderSettlement</factionIconPath>
 		<allowedCultures>

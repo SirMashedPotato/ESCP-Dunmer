@@ -17,6 +17,15 @@
 	<ResearchProjectTagDef>
 		<defName>ESCP_DunmerStart_Industrial</defName>
 	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerAshlanderStart_Tribal</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerAshlanderStart_Medieval</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_DunmerAshlanderStart_Industrial</defName>
+	</ResearchProjectTagDef>
 	<!-- For compatability with MorrowRim -->
 	<ResearchProjectTagDef>
 		<defName>DunmerStart</defName>

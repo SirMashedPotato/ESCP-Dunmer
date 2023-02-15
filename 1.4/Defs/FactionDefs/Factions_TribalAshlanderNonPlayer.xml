@@ -35,7 +35,6 @@
 		<requiredMemes>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_Nomad</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
 		</requiredMemes>
 		<disallowedPrecepts>
@@ -188,10 +187,8 @@
 			<li>(0.95, 0.95, 0.37)</li>
 		</colorSpectrum>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 		</requiredMemes>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
@@ -212,7 +209,6 @@
 		</colorSpectrum>
 		<naturalEnemy>true</naturalEnemy>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
@@ -236,7 +232,6 @@
 		</colorSpectrum>
 		<permanentEnemy>true</permanentEnemy>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>

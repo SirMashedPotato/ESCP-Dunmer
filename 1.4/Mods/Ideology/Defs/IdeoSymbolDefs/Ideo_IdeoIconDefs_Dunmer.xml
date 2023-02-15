@@ -35,7 +35,7 @@
 	</IdeoIconDef>
 	<!-- ==========[ESCP_DunmerE]========== -->
 	<IdeoIconDef>
-		<defName></defName>
+		<defName>ESCP_DunmerE</defName>
 		<iconPath>UI/Ideoligions/ESCP_DunmerE</iconPath>
 		<memes>
 			<li>ESCP_Cursed</li>
@@ -44,7 +44,7 @@
 	</IdeoIconDef>
 	<!-- ==========[ESCP_DunmerF]========== -->
 	<IdeoIconDef>
-		<defName></defName>
+		<defName>ESCP_DunmerF</defName>
 		<iconPath>UI/Ideoligions/ESCP_DunmerF</iconPath>
 		<memes>
 			<li>ESCP_Cursed</li>
@@ -52,7 +52,7 @@
 	</IdeoIconDef>
 	<!-- ==========[ESCP_DunmerG]========== -->
 	<IdeoIconDef>
-		<defName></defName>
+		<defName>ESCP_DunmerG</defName>
 		<iconPath>UI/Ideoligions/ESCP_DunmerG</iconPath>
 		<memes>
 			<li>ESCP_Cursed</li>

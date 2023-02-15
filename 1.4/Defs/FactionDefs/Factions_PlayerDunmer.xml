@@ -5,7 +5,7 @@
 		<defName>ESCP_DunmerPlayerFaction_Industrial</defName>
 		<label>New Dunmer Arrivals</label>
 		<basicMemberKind>ESCP_DunmerPlayerPawnKind_Outlander</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementIndustrial</factionIconPath>
 		<allowedCultures>
 			<li>ESCP_DunmerCulture</li>
 		</allowedCultures>
@@ -26,7 +26,7 @@
 		<defName>ESCP_DunmerPlayerFaction_Medieval</defName>
 		<label>New Dunmer Kingdom</label>
 		<basicMemberKind>ESCP_DunmerPlayerPawnKind_Medieval</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementHonourable</factionIconPath>
 		<allowedCultures>
 			<li>ESCP_DunmerCulture</li>
 		</allowedCultures>
@@ -47,7 +47,7 @@
 		<defName>ESCP_DunmerPlayerFaction_Tribal</defName>
 		<label>New Dunmer Tribe</label>
 		<basicMemberKind>ESCP_DunmerPlayerPawnKind_Tribal</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_DunmerSettlementHonourable</factionIconPath>
 		<allowedCultures>
 			<li>ESCP_DunmerCulture</li>
 		</allowedCultures>
