@@ -193,7 +193,8 @@
 		<title>wise-woman</title>
 		<titleShort>wise-woman</titleShort>
 		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes Wise-Woman, a role passed down by [PAWN_possessive] mother. [PAWN_nameDef] was an integral part of [PAWN_possessive] tribe, arguably more important than even the Ashkhan.</baseDesc>
-		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
