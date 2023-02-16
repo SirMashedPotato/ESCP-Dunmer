@@ -21,4 +21,60 @@
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_IntellectualB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_IntellectualB</defName>
+		<title>bonewalker creator</title>
+		<titleShort>creator</titleShort>
+		<baseDesc>[PAWN_nameDef] spent quite some time in the holy city of Necrom, as [PAWN_pronoun] created bonewalkers. Not exactly the most pleasant job, as improper storage of the corpses had somewhat undesirable results.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_IntellectualC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_IntellectualC</defName>
+		<title>bonewalker creator</title>
+		<titleShort>creator</titleShort>
+		<baseDesc>[PAWN_nameDef] spent quite some time in the holy city of Necrom, as [PAWN_nameDef] created bonewalkers. [PAWN_pronoun] always became annoyed when outlanders claimed the art of bonewalker creation was necromancy, and as such should be outlawed. 'Becoming a bonewalker is considered by many Dunmer to be an honour', [PAWN_nameDef] always exasperatedly shouted, though this usually fell on deaf ears. Incidents like this usually left [PAWN_nameDef] a rambling mess for a few days.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
 </Defs>

@@ -17,6 +17,9 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MeleeB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
