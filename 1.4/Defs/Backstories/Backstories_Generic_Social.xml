@@ -54,59 +54,58 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<li>
-				<key>Social</key>
-				<value>5</value>
+				<key>Intellectual</key>
+				<value>3</value>
 			</li>
 			<li>
-				<key>Animals</key>
+				<key>Social</key>
 				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraitsChance>
-			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
-				<chance>25</chance>
-			</li>
-			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>2</degree>
-				<chance>15</chance>
-			</li>
-		</forcedTraitsChance>
-		<maleCommonality>50</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialD]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
 		<defName>ESCP_DunmerBackstory_Adulthood_SocialD</defName>
-		<title>prophet of Satakal</title>
-		<titleShort>prophet</titleShort>
-		<baseDesc>Many believed Satakal spoke directly through [PAWN_nameDef]. Of course this was considered somewhat heretical, as how could Satakal speak through [PAWN_nameDef] if he already speaks through Kind Orgnum. Needless to say, [PAWN_nameDef] eventually decided it was best to lay low for a while.</baseDesc>
+		<title>wandering poet</title>
+		<titleShort>poet</titleShort>
+		<baseDesc>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told by Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<li>
-				<key>Social</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Animals</key>
+				<key>Cooking</key>
 				<value>2</value>
 			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
 		</skillGains>
-		<forcedTraitsChance>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialE</defName>
+		<title>brewery overseer</title>
+		<titleShort>overseer</titleShort>
+		<baseDesc>[PAWN_nameDef] oversaw a reasonably sized brewery in the Ascadian Isles. Many of the finest Dunmeri beverages were created there, all under [PAWN_possessive] vigilant eyes. And vigilant those eyes were, not even a single bottle of sujamma went missing under [PAWN_nameDef]'s watch, not that anyone ever dared try.</baseDesc>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<skillGains>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
-				<chance>50</chance>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>2</degree>
-				<chance>50</chance>
+				<key>Social</key>
+				<value>3</value>
 			</li>
-		</forcedTraitsChance>
-		<maleCommonality>15</maleCommonality>
-		<femaleCommonality>15</femaleCommonality>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</li>
+		</spawnCategories>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

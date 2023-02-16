@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- ==========[ESCP_MaormerBackstory_Adulthood_ShootingA]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_MaormerBackstory_Adulthood_ShootingA</defName>
-		<title>hunter</title>
-		<titleShort>hunter</titleShort>
-		<baseDesc>[PAWN_nameDef] always enjoyed the calm of going out into the wilderness, and tracking one of the beasts found there. Pyandonea was home to some strange creatures, and while [PAWN_nameDef] was never scared, the thought of encountering a lizard bull did make [PAWN_objective] nervous.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_ShootingA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_ShootingA</defName>
+		<title>Arnesian War veteran</title>
+		<titleShort>veteran</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the many brave Dunmer who fought in the Arnesian War. [PAWN_pronoun] was one of many who heroically stormed Black Marsh. And one of the few left standing in land now belonging to Morrowind, though not entirely in one piece. In later days, [PAWN_nameDef] took up pottery, but is still surprisingly quick on [PAWN_possessive] foot.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
-				<value>4</value>
+				<value>6</value>
 			</li>
 			<li>
-				<key>Cooking</key>
-				<value>2</value>
+				<key>Crafting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<maleCommonality>80</maleCommonality>
-		<femaleCommonality>80</femaleCommonality>
+		<forcedHediffs>
+			<li>PegLeg</li>
+		</forcedHediffs>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+		<bioAgeRange>
+			<min>100</min>
+			<max>999</max>
+		</bioAgeRange>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

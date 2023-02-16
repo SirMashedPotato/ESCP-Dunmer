@@ -141,26 +141,4 @@
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
-	<!-- ==========[ESCP_DunmerBackstory_Adulthood_PlantsF]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
-		<defName>ESCP_DunmerBackstory_Adulthood_PlantsF</defName>
-		<title>Thrassian coral cultivator</title>
-		<titleShort>cultivator</titleShort>
-		<baseDesc>[PAWN_nameDef] managed to obtain a truly rare species of coral, one that could only be found on the Thrassian Archipelago. [PAWN_nameDef] treasured that little coral, as if it were [PAWN_possessive] own child. But it never managed to grow very large, likely because it longed for its homeland.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>3</value>
-			</li>
-		</skillGains>
-		<maleCommonality>50</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
 </Defs>

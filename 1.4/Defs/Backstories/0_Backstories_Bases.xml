@@ -13,6 +13,12 @@
 			[Factions]
 			
 			[Great Houses]
+			ESCP_DunmerGreatHouse_Hlaalu_Adulthood
+			ESCP_DunmerGreatHouse_Redoran_Adulthood
+			ESCP_DunmerGreatHouse_Telvanni_Adulthood
+			ESCP_DunmerGreatHouse_Dres_Adulthood
+			ESCP_DunmerGreatHouse_Indoril_Adulthood
+			ESCP_DunmerGreatHouse_Dagoth_Adulthood
 
 			[Generic pawnKinds]
 			ESCP_DunmerMageBackstory	

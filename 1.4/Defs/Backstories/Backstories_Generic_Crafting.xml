@@ -3,18 +3,19 @@
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
 		<defName>ESCP_DunmerBackstory_Adulthood_CraftingA</defName>
-		<title>net maker</title>
-		<titleShort>net maker</titleShort>
-		<baseDesc>Nets were a highly in demand commodity on Pyandonea, and [PAWN_nameDef] took great advantage of it. [PAWN_pronoun] would always spread the many uses of nets to any potential customers, and even managed to gain the eyes of a few high ranking members of a pirate band.</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<title>chair crafter</title>
+		<titleShort>crafter</titleShort>
+		<baseDesc>[PAWN_nameDef] earned a living making and selling chairs, with the occasional table thrown in too. [PAWN_possessive] work even managed to catch the eye of a rather high ranking member of Great House Telvanni. One day [PAWN_nameDef] woke up, ready to fulfil the days orders, only to find every single chair, and table, missing.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
 			<li>
 				<key>Crafting</key>
 				<value>4</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>2</value>
 			</li>
 		</skillGains>
 		<maleCommonality>80</maleCommonality>

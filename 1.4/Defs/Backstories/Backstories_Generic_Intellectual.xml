@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- ==========[ESCP_MaormerBackstory_Adulthood_IntellectualA]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_MaormerBackstory_Adulthood_IntellectualA</defName>
-		<title>spy</title>
-		<titleShort>spy</titleShort>
-		<baseDesc>As a both a spy and a Maormer, [PAWN_nameDef] couldn't just rely on words to achieve [PAWN_possessive] goals. [PAWN_pronoun] had to rely almost solely on [PAWN_possessive] wits, and what fine wits they were.</baseDesc>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_IntellectualA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_IntellectualA</defName>
+		<title>Kemel-Ze researcher</title>
+		<titleShort>researcher</titleShort>
+		<baseDesc>[PAWN_nameDef] was lucky enough to be allowed access to Kemel-Ze, thanks to a rather influential friend. The ruins were a truly marvellous spectacle, [PAWN_nameDef] could spend years in there, and still find new things to study. Of course [PAWN_pronoun] had a habit of getting in the way of the Imperial Archaeological Societies work, not that [PAWN_pronoun] really cared.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
 			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
 				<key>Intellectual</key>
-				<value>8</value>
+				<value>6</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Mining</li>
-		</workDisables>
-		<maleCommonality>50</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 </Defs>
