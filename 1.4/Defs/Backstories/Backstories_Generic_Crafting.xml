@@ -49,4 +49,70 @@
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingC</defName>
+		<title>St. Delyn potter</title>
+		<titleShort>potter</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Potter's Hall of the St. Delyn canton. Admittedly the pay wasn't great, but the bed was cheap, and [PAWN_nameDef] enjoyed the work.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingD</defName>
+		<title>St. Olms tailor</title>
+		<titleShort>tailor</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tailors and Dyers Hall of the St. Olms canton. Days were varied enough, some days shirts, other days pants, maybe even some gloves thrown in there. But [PAWN_nameDef] did eventually grow tired of it, and decided to move on.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingE</defName>
+		<title>St. Olms tanner</title>
+		<titleShort>tanner</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tanners and Miners Hall of the St. Olms canton. Tanning hides was tiring and monotonous work, but conversations with the miners helped [PAWN_nameDef] through each day. [PAWN_nameDef] even picked up a few tricks from them.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
 </Defs>

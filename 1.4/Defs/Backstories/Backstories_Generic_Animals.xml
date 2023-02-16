@@ -107,12 +107,33 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<maleCommonality>70</maleCommonality>
-		<femaleCommonality>70</femaleCommonality>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsF]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
 		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsF</defName>
+		<title>St. Olms fishmonger</title>
+		<titleShort>fishmonger</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Brewers and Fishmongers Hall of the St. Olms canton. [PAWN_nameDef] looked forward to every day, mostly because [PAWN_pronoun] always knew there was a jug of sujamma with [PAWN_possessive] name on it, just a few steps away.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_AnimalsG]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_AnimalsG</defName>
 		<title>silt strider trainer</title>
 		<titleShort>strider trainer</titleShort>
 		<baseDesc>[PAWN_nameDef] once raised silt striders from nymph to adult. It was a long-winded process, as silt strider take a considerable time to reach to adulthood. But at the end of the day, [PAWN_nameDef] got to sit back and relax, listening to the soothing calls of the silt striders. </baseDesc>
