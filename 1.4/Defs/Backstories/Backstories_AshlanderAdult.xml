@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- ==================== [ANIMALS] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodAnimalsA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodAnimalsA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodAnimalA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodAnimalA</defName>
 		<title>shalk rancher</title>
 		<titleShort>rancher</titleShort>
 		<baseDesc>[PAWN_nameDef] was in charge of tending to [PAWN_possessive] tribes shalk herd. This mostly involved leading the shalk from one patch of slightly burnt grass to another, though occasionally it also involved shooting at cliff racers.</baseDesc>
@@ -19,9 +19,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodAnimalsB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodAnimalsB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodAnimalB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodAnimalB</defName>
 		<title>kwama nest harvester</title>
 		<titleShort>harvester</titleShort>
 		<baseDesc>[PAWN_nameDef] was tasked with harvesting eggs, wax, and cuttle from [PAWN_possessive] tribes local kwama nest. Luckily the settled Dunmer had turned the nest into a mine, before abandoning it due to the growing blight.</baseDesc>
@@ -37,9 +37,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodAnimalsC]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodAnimalsC]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodAnimalC</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodAnimalC</defName>
 		<title>nix hound tamer</title>
 		<titleShort>tamer</titleShort>
 		<baseDesc>[PAWN_nameDef] tamed, raised, and trained nix hounds for [PAWN_possessive] tribe. These beasts were a great asset to the tribe, being used for all sorts of tasks, such as herding guar and shalk, tracking wild animals, finding clusters of wild ash yam, and as an ingredient in the cooks stew.</baseDesc>
@@ -52,9 +52,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [ARTISTIC] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodArtisticA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodArtisticA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodArtisticA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodArtisticA</defName>
 		<title>crafter</title>
 		<titleShort>crafter</titleShort>
 		<baseDesc>[PAWN_nameDef] created all sorts of goods for [PAWN_possessive] tribe. These ranged from necklaces and amulets, to windchimes and lanterns.</baseDesc>
@@ -72,9 +72,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [CONSTRUCTION] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodConstructionA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodConstructionA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodConstructionA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodConstructionA</defName>
 		<title>framer</title>
 		<titleShort>framer</titleShort>
 		<baseDesc>[PAWN_nameDef] was tasked with assembling and dissembling [PAWN_pronoun] tribes tents. A task that [PAWN_nameDef] often found [PAWN_objective]self doing multiple times a week.</baseDesc>
@@ -92,9 +92,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [COOKING] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCookingA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodCookingA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCookingA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCookingA</defName>
 		<title>cook</title>
 		<titleShort>cook</titleShort>
 		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety. But [PAWN_possessive] tribe members never seemed to mind, or at least never voiced their complaints.</baseDesc>
@@ -107,9 +107,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCookingB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodCookingB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCookingB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCookingB</defName>
 		<title>cook</title>
 		<titleShort>cook</titleShort>
 		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety, and [PAWN_possessive] tribe members often voiced their distaste of being fed cliff racer stew again.</baseDesc>
@@ -127,9 +127,9 @@
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-		<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCookingC]========== -->
+		<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodCookingC]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCookingC</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCookingC</defName>
 		<title>tea brewer</title>
 		<titleShort>brewer</titleShort>
 		<baseDesc>[PAWN_nameDef] spent many days brewing tea for [PAWN_possessive] tribe members. As [PAWN_possessive] tribe was forced to live in the ashlands, there wasn't exactly a great wealth of plant life to brew tea from. So [PAWN_nameDef] was usually forced to brew trama root and bittergreen tea yet again.</baseDesc>
@@ -146,9 +146,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [CRAFTING] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCraftingA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodCraftingA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCraftingA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCraftingA</defName>
 		<title>tanner</title>
 		<titleShort>tanner</titleShort>
 		<baseDesc>[PAWN_nameDef] crafted and repaired clothes and yurts for [PAWN_possessive] tribe. [PAWN_nameDef] always sighed when the hunters bought [PAWN_possessive] cliff racer leather, which was most of the time.</baseDesc>
@@ -161,9 +161,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCraftingB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodCraftingB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCraftingB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodCraftingB</defName>
 		<title>heath tender</title>
 		<titleShort>tender</titleShort>
 		<baseDesc>[PAWN_nameDef] would help [PAWN_possessive[ tribe members with all sorts of tasks, from cooking meals, to crafting arrows, and occasionally even building new yurts.</baseDesc>
@@ -187,9 +187,9 @@
 		<femaleCommonality>70</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [INTELLECTUAL] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodIntellectualA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodIntellectualA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodIntellectualA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodIntellectualA</defName>
 		<title>wise-woman</title>
 		<titleShort>wise-woman</titleShort>
 		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes Wise-Woman, a role passed down by [PAWN_possessive] mother. [PAWN_nameDef] was an integral part of [PAWN_possessive] tribe, arguably more important than even the Ashkhan.</baseDesc>
@@ -216,9 +216,9 @@
 		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [MEDICINE] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodMedicineA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodMedicineA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodMedicineA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMedicineA</defName>
 		<title>healer</title>
 		<titleShort>healer</titleShort>
 		<baseDesc>[PAWN_nameDef] was one of [PAWN_possessive] tribes healers. Many days were spent curing illnesses, patching wounds, and searching for medicinal plants.</baseDesc>
@@ -235,9 +235,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [MELEE] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodMeleeA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodMeleeA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodMeleeA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMeleeA</defName>
 		<title>warrior</title>
 		<titleShort>warrior</titleShort>
 		<baseDesc>[PAWN_nameDef] was a well trained warrior, and helped ensure [PAWN_possessive] tribe was safe from any who sought them harm.</baseDesc>
@@ -250,9 +250,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodMeleeB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodMeleeB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodMeleeB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMeleeB</defName>
 		<title>champion</title>
 		<titleShort>champion</titleShort>
 		<baseDesc>Highly skilled with both spears and blades, [PAWN_nameDef] was not someone you wanted to see on the battlefield.</baseDesc>
@@ -267,9 +267,9 @@
 		<femaleCommonality>70</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [MINING] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodMiningA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodMiningA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodMiningA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodMiningA</defName>
 		<title>digger</title>
 		<titleShort>digger</titleShort>
 		<baseDesc>[PAWN_nameDef] spent much of [PAWN_possessive] day digging away at rock, in search of anything remotely useful for the tribe. Sometimes [PAWN_pronoun] found Resdayn glass, sometimes ebony, and occasionally even a kwama nest.</baseDesc>
@@ -287,9 +287,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [PLANTS] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodPlantsA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodPlantsA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodPlantsA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodPlantsA</defName>
 		<title>ash yam farmer</title>
 		<titleShort>farmer</titleShort>
 		<baseDesc>[PAWN_nameDef] was quite a skilled farmer, and spent much of the day tending to [PAWN_possessive] ash yams. It was always tough leaving [PAWN_possessive] yams behind when the tribe moved, but such is life in the ashlands.</baseDesc>
@@ -302,9 +302,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodPlantsB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodPlantsB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodPlantsB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodPlantsB</defName>
 		<title>gatherer</title>
 		<titleShort>gatherer</titleShort>
 		<baseDesc>[PAWN_nameDef] would often go out into the ashlands in search of edible plants. A rather difficult task, as the fauna of the ashlands is quite aggressive. Even a guar is willing to defend its ash yams</baseDesc>
@@ -322,9 +322,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [SHOOTING] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodShootingA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodShootingA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodShootingA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodShootingA</defName>
 		<title>hunter</title>
 		<titleShort>hunter</titleShort>
 		<baseDesc>[PAWN_nameDef] was one of [PAWN_possessive] tribes hunters. Tracking animals in the ashen wastes was hard work, but [PAWN_nameDef] always managed to find something.</baseDesc>
@@ -341,9 +341,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodShootingB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodShootingB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodShootingB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodShootingB</defName>
 		<title>sentry</title>
 		<titleShort>sentry</titleShort>
 		<baseDesc>[PAWN_nameDef] was incredibly proficient with a bow, even with minimal training. [PAWN_nameDef] helped to keep [PAWN_pronoun] tribe safe from numerous threats, though most of them were cliff racers.</baseDesc>
@@ -357,9 +357,9 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [SOCIAL] ==================== -->
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodSocialA]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodSocialA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodSocialA</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodSocialA</defName>
 		<title>trader</title>
 		<titleShort>trader</titleShort>
 		<baseDesc>While ashlanders generally distrust foreigners, some tribes did allow trade with them. [PAWN_nameDef] belonged to one of those tribes, and specialised in bartering for goods that [PAWN_possessive] tribe needed.</baseDesc>
@@ -372,9 +372,9 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodSocialB]========== -->
+	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodSocialB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodSocialB</defName>
+		<defName>ESCP_DunmerAshlanderBackstory_AdulthoodSocialB</defName>
 		<title>ashkhan</title>
 		<titleShort>ashkhan</titleShort>
 		<baseDesc>[PAWN_nameDef] was the Ashkhan of [PAWN_possessive] tribe, a role earned through blood and sweat, and a role that [PAWN_nameDef] did not easily give up.</baseDesc>
