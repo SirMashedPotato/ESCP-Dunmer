@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_SilkenRingBackstory</defName>
 		<title>Silken Ring assassin</title>
 		<titleShort>assassin</titleShort>
-		<baseDescription>Once a member of the Morag Tong, over time [PAWN_nameDef] grew disillusioned with the laws the Tong enforced. Eventually [PAWN_nameDef] was contacted by a former member of the Morag Tong, who had founded a new establishment, and was looking for members to join it.</baseDescription>
+		<baseDesc>Once a member of the Morag Tong, over time [PAWN_nameDef] grew disillusioned with the laws the Tong enforced. Eventually [PAWN_nameDef] was contacted by a former member of the Morag Tong, who had founded a new establishment, and was looking for members to join it.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -13,16 +13,16 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>2</amount>
+				<key>Shooting</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -31,6 +31,6 @@
 		</workDisables>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 </Defs>

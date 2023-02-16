@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_CamonnaTongBackstory</defName>
 		<title>former Camonna Tong member</title>
 		<titleShort>ex Camonna Tong</titleShort>
-		<baseDescription>[PAWN_nameDef] spent many years in the Camonna Tong. [PAWN_pronoun] followed the strict code of 'what's yours is mine', and amassed quite the wealth because of it. Sadly, all good things must come to an end. [PAWN_nameDef] was caught, jailed, and stripped of all that hard earned wealth. After escaping [PAWN_nameDef] thought it best to find somewhere to lie low, and maybe start a new life.</baseDescription>
+		<baseDesc>[PAWN_nameDef] spent many years in the Camonna Tong. [PAWN_pronoun] followed the strict code of 'what's yours is mine', and amassed quite the wealth because of it. Sadly, all good things must come to an end. [PAWN_nameDef] was caught, jailed, and stripped of all that hard earned wealth. After escaping [PAWN_nameDef] thought it best to find somewhere to lie low, and maybe start a new life.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -13,15 +13,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>1</amount>
+				<key>Crafting</key>
+				<value>1</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Greedy</defName>
 				<chance>70</chance>
@@ -34,13 +34,13 @@
 				<defName>Nimble</defName>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 </Defs>

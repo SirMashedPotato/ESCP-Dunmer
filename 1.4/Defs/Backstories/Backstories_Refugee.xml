@@ -3,11 +3,11 @@
 
 	<!-- Child -->
 	
-	<AlienRace.BackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
 		<defName>ESCP_Dunmer_RefugeeChildBackstoryA</defName>
 		<title>Red Year refugee</title>
 		<titleShort>child refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force [PAWN_objective] to relive the horror.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was simply a child during the Red Year. Though [PAWN_possessive] memories of the event are hazy, every night [PAWN_pronoun] wakes up in a cold sweat, as [PAWN_possessive] nightmares force [PAWN_objective] to relive the horror.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_DunmerAshlanderBackstory</li>
@@ -15,8 +15,8 @@
 		</spawnCategories>
 		<skillGains>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Firefighting</li>
 			<li>Caring</li>
@@ -24,13 +24,13 @@
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nerves</defName>
 				<degree>-2</degree>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<forcedHediffs>
 		</forcedHediffs>
 		<maleCommonality>20</maleCommonality>
@@ -39,15 +39,15 @@
 			<min>0</min>
 			<max>20</max>
 		</bioAgeRange>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Generic -->
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryA</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind many good slaves in the process. It was a very emotional time for [PAWN_nameDef], as replacing those slaves will be hard work.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind many good slaves in the process. It was a very emotional time for [PAWN_nameDef], as replacing those slaves will be hard work.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
@@ -56,38 +56,38 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
+				<key>Melee</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>2</amount>
+				<key>Shooting</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ESCP_Slaver</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>PlantWork</li>
 			<li>ManualDumb</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryB</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind a prosperous netch ranch in the process. While simple beasts, [PAWN_nameDef] considered the netch to be [PAWN_possessive] best friends, and shed many tears while leaving Vvardenfell.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind a prosperous netch ranch in the process. While simple beasts, [PAWN_nameDef] considered the netch to be [PAWN_possessive] best friends, and shed many tears while leaving Vvardenfell.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -97,27 +97,27 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>4</amount>
+				<key>Animals</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
+				<key>Medicine</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryC</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local egg mine. Whilst [PAWN_nameDef] doesn't miss the claustrophobic tunnels, a small part of [PAWN_objective] does miss the strange sounds the kwama made.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local egg mine. Whilst [PAWN_nameDef] doesn't miss the claustrophobic tunnels, a small part of [PAWN_objective] does miss the strange sounds the kwama made.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -126,30 +126,30 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
+				<key>Animals</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>2</amount>
+				<key>Mining</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>PlantWork</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryD</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local glass mine. [PAWN_nameDef] is still annoyed that [PAWN_pronoun] was unable to steal any glass before being forced out.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local glass mine. [PAWN_nameDef] is still annoyed that [PAWN_pronoun] was unable to steal any glass before being forced out.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -159,19 +159,19 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Mining</defName>
-				<amount>5</amount>
+				<key>Mining</key>
+				<value>5</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Undergrounder</defName>
 				<chance>15</chance>
@@ -180,14 +180,14 @@
 				<defName>Greedy</defName>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryE</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local ebony mine. [PAWN_nameDef] tried to pocket some ebony before leaving, but severly underestimated how heavy small chunks were, and lost [PAWN_possessive] bag in the process.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job at the local ebony mine. [PAWN_nameDef] tried to pocket some ebony before leaving, but severly underestimated how heavy small chunks were, and lost [PAWN_possessive] bag in the process.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -197,38 +197,38 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>4</amount>
+				<key>Mining</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Nimble</defName>
 			</li>
-		</disallowedTraits>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Undergrounder</defName>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryF</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a skooma runner. In all the chaos [PAWN_nameDef] decided to finally try some skooma, hoping it would relax [PAWN_objective].</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a skooma runner. In all the chaos [PAWN_nameDef] decided to finally try some skooma, hoping it would relax [PAWN_objective].</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -237,36 +237,36 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Animals</li>
 			<li>Caring</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>DrugDesire</defName>
 				<degree>2</degree>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryG</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] highly popular corner club in Balmora. [PAWN_nameDef] often looks back fondly at [PAWN_possessive] time spent running the corner club, and imagines what life may have been like if [PAWN_pronoun] was still in Balmora.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] highly popular corner club in Balmora. [PAWN_nameDef] often looks back fondly at [PAWN_possessive] time spent running the corner club, and imagines what life may have been like if [PAWN_pronoun] was still in Balmora.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
@@ -275,34 +275,34 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>NaturalMood</defName>
 				<degree>1</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryH</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a gondolier in Vivec city. [PAWN_nameDef] often yearns for the simple days, peacefully rowing [PAWN_possessive] gondola between the cantons.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] job as a gondolier in Vivec city. [PAWN_nameDef] often yearns for the simple days, peacefully rowing [PAWN_possessive] gondola between the cantons.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -312,31 +312,31 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
 		<forcedHediffs>
 		</forcedHediffs>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryI</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] prized ash yam farm. Of course several slaves were also left behind, but [PAWN_nameDef] only cared about the ash yams.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] prized ash yam farm. Of course several slaves were also left behind, but [PAWN_nameDef] only cared about the ash yams.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
@@ -345,32 +345,32 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
-				<amount>5</amount>
+				<key>Plants</key>
+				<value>5</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Caring</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ESCP_Slaver</defName>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<forcedHediffs>
 		</forcedHediffs>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryJ</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] life in Ald'Ruhn. [PAWN_nameDef] still remembers that day as if it were yesterday. The sounds, sights, and smells are permanently etched into [PAWN_possessive] mind, and grow much stronger at the sight of fire.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] life in Ald'Ruhn. [PAWN_nameDef] still remembers that day as if it were yesterday. The sounds, sights, and smells are permanently etched into [PAWN_possessive] mind, and grow much stronger at the sight of fire.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -380,36 +380,36 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>1</amount>
+				<key>Social</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>1</amount>
+				<key>Medicine</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>1</amount>
+				<key>Crafting</key>
+				<value>1</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Firefighting</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
 		<forcedHediffs>
 		</forcedHediffs>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_RefugeeBackstoryK</defName>
 		<title>Red Year refugee</title>
 		<titleShort>refugee</titleShort>
-		<baseDescription>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] guar ranch. While [PAWN_nameDef] may miss herding the guar, [PAWN_pronoun] certainly does not miss replacing [PAWN_possessive] boots every few days.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was forced out of Vvardenfell during the Red Year, leaving behind [PAWN_possessive] guar ranch. While [PAWN_nameDef] may miss herding the guar, [PAWN_pronoun] certainly does not miss replacing [PAWN_possessive] boots every few days.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -420,21 +420,21 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>3</amount>
+				<key>Crafting</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- Faction -->
 	

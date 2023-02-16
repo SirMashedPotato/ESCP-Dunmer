@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AlienRace.AlienBackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_PsychicallyGiftedBackstory_Child</defName>
+		<title>psychically gifted</title>
+		<titleShort>gifted</titleShort>
+		<baseDesc>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years at the temple [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the whispers of the ancestors.</baseDesc>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_MagicallyAttunedBackstory_Child</defName>
+		<title>magically attuned</title>
+		<titleShort>attuned</titleShort>
+		<baseDesc>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by esteemed members of Great House Telvanni, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</baseDesc>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_SlaverBackstory_Child</defName>
+		<title>child slaver</title>
+		<titleShort>slaver</titleShort>
+		<baseDesc>[PAWN_nameDef] was practically born to be a slaver master. As soon as [PAWN_pronoun] could form coherent sentences [PAWN_nameDef] was bossing around the other children. Within a few years [PAWN_pronoun] had amassed a reasonable number of slaves, most of which were other children.</baseDesc>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ESCP_Slaver</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_ChimerBackstory_Child</defName>
+		<title>Chimer</title>
+		<titleShort>Chimer</titleShort>
+		<baseDesc>[PAWN_nameDef] was born long before the Great Betrayal, before the Dunmer even existed, possibly even before the pilgramage to Resdayn. Needless to say, [PAWN_nameDef] is quite old.</baseDesc>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerAshlanderBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<bioAgeRange>
+			<min>250</min>
+			<max>999</max>
+		</bioAgeRange>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName = "ESCP_Dunmer_ChildBackstory_base">
+		<defName>ESCP_Dunmer_CloneDaughterBackstory_Child</defName>
+		<title>clone daughter</title>
+		<titleShort>clone</titleShort>
+		<baseDesc>[PAWN_nameDef] wasn't exactly born like most others. Instead, [PAWN_pronoun] was cloned by, and from, a rather high ranking member of Great House Telvanni. Inheriting quite a bit of [PAWN_possessive] fathers intellect, [PAWN_nameDef] was sure to follow in [PAWN_possessive] fathers footsteps.</baseDesc>
+
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<relationSettings>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			<renamer>
+               <li>
+                  <relation>Parent</relation>
+                  <label>clone father</label>
+                  <femaleLabel>mother</femaleLabel>
+               </li>
+            </renamer>
+		</relationSettings>
+	</AlienRace.AlienBackstoryDef>
+<!-- ==========[ESCP_MaormerBackstory_Adulthood_SeaViperA]========== -->
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_BonewalkerCreatorBackstory_Child</defName>
+		<title>apprentice bonewalker creator</title>
+		<titleShort>apprentice</titleShort>
+		<baseDesc>[PAWN_nameDef] was always fascinated by the creation process of bonewalkers. Thanks to diligent study, [PAWN_pronoun] was given the chance to join an apprenticeship in Necrom, studying under a master bonewalker creator. Needless to say, [PAWN_nameDef] eagerly accepted the offer.</baseDesc>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

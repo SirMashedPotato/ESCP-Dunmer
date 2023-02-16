@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TwinLampsBackstory</defName>
 		<title>Twin Lamps member</title>
 		<titleShort>Twin Lamps member</titleShort>
-		<baseDescription>[PAWN_nameDef] always thought slavery a necessary evil. [PAWN_pronoun] had a change of heart After watching an Argonian slave get beaten to near death. After that moment [PAWN_nameDef] decided to join the Twin Lamps, and vowed to do anything to protect slaves.</baseDescription>
+		<baseDesc>[PAWN_nameDef] always thought slavery a necessary evil. [PAWN_pronoun] had a change of heart After watching an Argonian slave get beaten to near death. After that moment [PAWN_nameDef] decided to join the Twin Lamps, and vowed to do anything to protect slaves.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -13,15 +13,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nimble</defName>
 				<chance>15</chance>
@@ -30,8 +30,8 @@
 				<defName>Ascetic</defName>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Xenophobia</defName>
 				<degree>1</degree>
@@ -48,10 +48,10 @@
 			<li>
 				<defName>Jealous</defName>
 			</li>
-		</disallowedTraits>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Violent</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 </Defs>

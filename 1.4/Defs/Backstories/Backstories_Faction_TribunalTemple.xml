@@ -3,11 +3,11 @@
 
 	<!-- Armigers -->
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_ArmigerBackstory</defName>
 		<title>Buoyant Armiger member</title>
 		<titleShort>Buoyant Armiger</titleShort>
-		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was a member of the Buoyant Armigers, a militant order of the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -17,15 +17,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>2</amount>
+				<key>Shooting</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nerves</defName>
 				<degree>1</degree>
@@ -35,21 +35,21 @@
 				<defName>Brawler</defName>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Wimp</defName>
 			</li>
-		</disallowedTraits>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_ArmigerSharpshotBackstory</defName>
 		<title>Armiger sharp-shot</title>
 		<titleShort>sharp-shot</titleShort>
-		<baseDescription>Every morning [PAWN_nameDef] would climb to the top of ghostfence, ready [PAWN_possessive] arrow, and wait. [PAWN_nameDef] was one of the most renowned archers among the Boyant Armigers, and for good reason.</baseDescription>
+		<baseDesc>Every morning [PAWN_nameDef] would climb to the top of ghostfence, ready [PAWN_possessive] arrow, and wait. [PAWN_nameDef] was one of the most renowned archers among the Boyant Armigers, and for good reason.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
@@ -58,18 +58,18 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>10</amount>
+				<key>Shooting</key>
+				<value>10</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Commoner</li>
 		</workDisables>
 		<forcedItems>
 		</forcedItems>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
@@ -80,20 +80,20 @@
 				<degree>1</degree>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<forcedHediffs>
 		</forcedHediffs>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- Ordinators -->
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_OrdinatorBackstory</defName>
 		<title>Ordinator</title>
 		<titleShort>Ordinator</titleShort>
-		<baseDescription>[PAWN_nameDef] was an Ordinator in service of the tribunal temple. [PAWN_pronoun] spent many a day watching scum, looking for any reason to lock them up.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was an Ordinator in service of the tribunal temple. [PAWN_pronoun] spent many a day watching scum, looking for any reason to lock them up.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -104,23 +104,23 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
+				<key>Melee</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
 		<workDisables>
@@ -128,13 +128,13 @@
 			<li>ManualDumb</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_HighOrdinatorBackstory</defName>
 		<title>High Ordinator</title>
 		<titleShort>Ordinator</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the elite Ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork.\n\n[PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold wasn't for [PAWN_objective].</baseDescription>
+		<baseDesc>[PAWN_nameDef] was one of the elite Ordinators tasked with protecting the citizens of Mournhold. [PAWN_pronoun] nearly lost [PAWN_possessive] life during the chaos caused by Sotha Sil's attack on Mournhold. Not by a fabricant, but from some peasant with a pitchfork.\n\n[PAWN_nameDef] began contemplating life once the peasant had been dealt with, and decided Mournhold wasn't for [PAWN_objective].</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -145,23 +145,23 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
 		<workDisables>
@@ -170,13 +170,13 @@
 			<li>Caring</li>
 			<li>Social</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_HandOfTheQueenBackstory</defName>
 		<title>Hand of Almalexia</title>
 		<titleShort>Her Hand</titleShort>
-		<baseDescription>[PAWN_nameDef] wasn't just an ordinary Ordinator, [PAWN_pronoun] was one of the Hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
+		<baseDesc>[PAWN_nameDef] wasn't just an ordinary Ordinator, [PAWN_pronoun] was one of the Hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -187,15 +187,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>10</amount>
+				<key>Melee</key>
+				<value>10</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ESCP_AlmalexiaBlessing</defName>
 				<chance>100</chance>
@@ -205,9 +205,9 @@
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<workDisables>
@@ -215,13 +215,13 @@
 			<li>ManualDumb</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_VivecGuardBackstory</defName>
 		<title>palace guard</title>
 		<titleShort>palace guard</titleShort>
-		<baseDescription>[PAWN_nameDef] was once one a highly esteemed member of the Tribunal Temple, whose sole purpose was to guard Vivec's palace. A highly important job, as the Warrior Poet was not to be disturbed, not even by someone claiming to be the Incarnate.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was once one a highly esteemed member of the Tribunal Temple, whose sole purpose was to guard Vivec's palace. A highly important job, as the Warrior Poet was not to be disturbed, not even by someone claiming to be the Incarnate.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -232,15 +232,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ESCP_VivecBlessing</defName>
 				<chance>100</chance>
@@ -250,9 +250,9 @@
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<workDisables>
@@ -260,13 +260,13 @@
 			<li>ManualDumb</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_MourningOrdinatorBackstory</defName>
 		<title>Ordinator in Mourning</title>
 		<titleShort>Ordinator</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Necrom.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was one of the Ordinators in Mourning, elite members of the Order of the Watch, tasked with protecting the sacred burial grounds of Necrom. Much of [PAWN_possessive] day was spent wandering around the catacombs, ensuring nothing went missing, and scolding anyone who dared to walk at a brisk pace.\n\n.After the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Necrom.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -277,38 +277,38 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>10</amount>
+				<key>Melee</key>
+				<value>10</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<workDisables>
 			<li>PlantWork</li>
 			<li>ManualDumb</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Temple -->
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleBackstory</defName>
 		<title>Tribunal Temple member</title>
 		<titleShort>Temple member</titleShort>
-		<baseDescription>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDescription>
+		<baseDesc>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -317,19 +317,19 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
+				<key>Medicine</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>20</chance>
@@ -339,18 +339,18 @@
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleLibrarianBackstory</defName>
 		<title>Tribunal Temple librarian</title>
 		<titleShort>Temple librarian</titleShort>
-		<baseDescription>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes. No one knows where they went, but after [PAWN_nameDef] got [PAWN_possessive] hands on them, they'd never be seen again.</baseDescription>
+		<baseDesc>Many thought that [PAWN_nameDef] was simply one of the librarians in charge of tending the Library of Vivec. While this was, at least partly, the case, [PAWN_nameDef] was also in charge of dealing with certain heretical tomes. No one knows where they went, but after [PAWN_nameDef] got [PAWN_possessive] hands on them, they'd never be seen again.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -359,15 +359,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>5</amount>
+				<key>Intellectual</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>20</chance>
@@ -377,18 +377,18 @@
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleWitchHunterBackstory</defName>
 		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] occasionally made those that practiced the profane disappear, permanently, [PAWN_nameDef] mostly sought out heretical texts and shrines.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was one of the witchunters employed by the Tribunal Temple. While [PAWN_pronoun] occasionally made those that practiced the profane disappear, permanently, [PAWN_nameDef] mostly sought out heretical texts and shrines.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -398,20 +398,20 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
@@ -422,20 +422,20 @@
 				<degree>3</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleWitchHunterBackstoryAlt</defName>
 		<title>Temple witchhunter</title>
 		<titleShort>witchhunter</titleShort>
-		<baseDescription>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</baseDescription>
+		<baseDesc>Whenever the Temple caught wind of someone delving into the profane arts, they sent in the witchhunters, and [PAWN_nameDef] used to be one of them. [PAWN_pronoun] was part of a force tasked with clearing out Assemanu, some abandoned cave system near Hla Oad. The second the Ordinator fell, [PAWN_nameDef] fled.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -445,20 +445,20 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nerves</defName>
 				<degree>-2</degree>
@@ -469,20 +469,20 @@
 				<degree>1</degree>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TemplePilgrimBackstory</defName>
 		<title>Tribunal Temple pilgrim</title>
 		<titleShort>Temple pilgrim</titleShort>
-		<baseDescription>[PAWN_nameDef], like anyone who wished to join the Tribunal Temple, was sent on a pilgrimage of the Seven Graces, and would have to travel to several locations of importance to the Dunmer. [PAWN_nameDef] may have gotten slightly lost along the way, and decided to just keep wandering until [PAWN_pronoun] happened upon something.</baseDescription>
+		<baseDesc>[PAWN_nameDef], like anyone who wished to join the Tribunal Temple, was sent on a pilgrimage of the Seven Graces, and would have to travel to several locations of importance to the Dunmer. [PAWN_nameDef] may have gotten slightly lost along the way, and decided to just keep wandering until [PAWN_pronoun] happened upon something.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -491,15 +491,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>1</amount>
+				<key>Intellectual</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>20</chance>
@@ -509,18 +509,18 @@
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleShrineTenderBackstory</defName>
 		<title>Tribunal Temple shrine tender</title>
 		<titleShort>Temple shrine tender</titleShort>
-		<baseDescription>As a higher ranking member of the Tribunal Temple, [PAWN_nameDef] was given the honour of tending to the sacred shrines, an honour [PAWN_pronoun] took very seriously. Anyone who dared track ash into these sacred locations would get a stern talking to, so [PAWN_nameDef] yelled at pretty much everyone.</baseDescription>
+		<baseDesc>As a higher ranking member of the Tribunal Temple, [PAWN_nameDef] was given the honour of tending to the sacred shrines, an honour [PAWN_pronoun] took very seriously. Anyone who dared track ash into these sacred locations would get a stern talking to, so [PAWN_nameDef] yelled at pretty much everyone.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -529,15 +529,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>80</chance>
@@ -547,18 +547,18 @@
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleHealerBackstory</defName>
 		<title>Tribunal Temple healer</title>
 		<titleShort>Temple healer</titleShort>
-		<baseDescription>Many came to the Temples when seeking aid, many were in need of healing, and [PAWN_nameDef] would attempt to help them all. Some would require elixirs, some a bowl of warm soup, and others simply kind words. But sometimes, someone would arrive, and there was no helping them, and [PAWN_nameDef] would have to call the Ordinators.</baseDescription>
+		<baseDesc>Many came to the Temples when seeking aid, many were in need of healing, and [PAWN_nameDef] would attempt to help them all. Some would require elixirs, some a bowl of warm soup, and others simply kind words. But sometimes, someone would arrive, and there was no helping them, and [PAWN_nameDef] would have to call the Ordinators.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -567,19 +567,19 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Medicine</defName>
-				<amount>3</amount>
+				<key>Medicine</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>2</amount>
+				<key>Cooking</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>80</chance>
@@ -599,18 +599,18 @@
 				<degree>2</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleJudgeBackstory</defName>
 		<title>Tribunal Temple judge</title>
 		<titleShort>Temple judge</titleShort>
-		<baseDescription>As a member of the Order of Inquisition, [PAWN_nameDef] was one of the many that decided the fate of those that defied the laws of the Temple. Any that committed acts of heresy would inevitably stand before [PAWN_nameDef], or one of [PAWN_possessive] peers.</baseDescription>
+		<baseDesc>As a member of the Order of Inquisition, [PAWN_nameDef] was one of the many that decided the fate of those that defied the laws of the Temple. Any that committed acts of heresy would inevitably stand before [PAWN_nameDef], or one of [PAWN_possessive] peers.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -620,39 +620,39 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_TempleBaarDauBackstory</defName>
 		<title>Baar Dau warden</title>
 		<titleShort>warden</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the few Ordinators 'privileged' with wandering the tunnels of Baar Dau, making sure no prisoners were stupid enough to attempt escape. While some may have considered it a privilege, to be stationed in such an important place, [PAWN_nameDef] actually found it somewhat boring. For what was there to do up there, other than beating up prisoners?</baseDescription>
+		<baseDesc>[PAWN_nameDef] was one of the few Ordinators 'privileged' with wandering the tunnels of Baar Dau, making sure no prisoners were stupid enough to attempt escape. While some may have considered it a privilege, to be stationed in such an important place, [PAWN_nameDef] actually found it somewhat boring. For what was there to do up there, other than beating up prisoners?</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -663,19 +663,19 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>50</chance>
@@ -685,9 +685,9 @@
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
 		<workDisables>
@@ -695,6 +695,6 @@
 			<li>ManualDumb</li>
 			<li>Caring</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 </Defs>

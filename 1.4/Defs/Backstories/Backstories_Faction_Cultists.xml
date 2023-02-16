@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_ReclamationsPriestBackstory</defName>
 		<title>Reclamations priest</title>
 		<titleFemale>Reclamations priestess</titleFemale>
 		<titleShort>priest</titleShort>
 		<titleShortFemale>priestess</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] never really cared for the Tribunal, and was rather thrilled when [PAWN_pronoun] got word the Temple was being reformed. [PAWN_nameDef] decided to help rebuild the Temple, and eventually wound up taking on a permanent role at one of the shrines.</baseDescription>
+		<baseDesc>[PAWN_nameDef] never really cared for the Tribunal, and was rather thrilled when [PAWN_pronoun] got word the Temple was being reformed. [PAWN_nameDef] decided to help rebuild the Temple, and eventually wound up taking on a permanent role at one of the shrines.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -16,34 +16,34 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ESCP_Mage</defName>
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_DissidentPriestBackstory</defName>
 		<title>dissident priest</title>
 		<titleFemale>dissident priestess</titleFemale>
 		<titleShort>priest</titleShort>
 		<titleShortFemale>priestess</titleShortFemale>
-		<baseDescription>Once a loyal servent of the Tribunal Temple, [PAWN_nameDef] eventually learned the truth, the true events that transpired at the battle of Red Mountain. [PAWN_pronoun] tried to talk to [PAWN_possessive] peers, to help them see the light. But eventually grew anxious, as the Ordinators seemed to be closing in. So [PAWN_nameDef] fled to Holamayan, and awaited the visitation of the Incarnate.\n\nIn the coming years, and with the reformation of the Tribunal, [PAWN_nameDef] decided to resume [PAWN_possessive] previous role at the temple.</baseDescription>
+		<baseDesc>Once a loyal servent of the Tribunal Temple, [PAWN_nameDef] eventually learned the truth, the true events that transpired at the battle of Red Mountain. [PAWN_pronoun] tried to talk to [PAWN_possessive] peers, to help them see the light. But eventually grew anxious, as the Ordinators seemed to be closing in. So [PAWN_nameDef] fled to Holamayan, and awaited the visitation of the Incarnate.\n\nIn the coming years, and with the reformation of the Tribunal, [PAWN_nameDef] decided to resume [PAWN_possessive] previous role at the temple.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -52,27 +52,27 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>5</amount>
+				<key>Intellectual</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- Azura -->
 	<!-- Boethiah -->

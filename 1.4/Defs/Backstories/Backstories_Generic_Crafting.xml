@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingA</defName>
+		<title>net maker</title>
+		<titleShort>net maker</titleShort>
+		<baseDesc>Nets were a highly in demand commodity on Pyandonea, and [PAWN_nameDef] took great advantage of it. [PAWN_pronoun] would always spread the many uses of nets to any potential customers, and even managed to gain the eyes of a few high ranking members of a pirate band.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_CraftingB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_CraftingB</defName>
+		<title>bonemold smith</title>
+		<titleShort>smith</titleShort>
+		<baseDesc>[PAWN_nameDef] was always fascinated with the process of constructing armour from bonemold. Following their lifelong dream, [PAWN_pronoun] decided to become one of the best bonemold smiths in Vivec. Sadly, [PAWN_possessive] fledgling business was in Camonna Tong territory. [PAWN_nameDef] barely saw a sliver of gold for [PAWN_possessive] hard work, but that never stopped [PAWN_possessive] from enjoying life.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

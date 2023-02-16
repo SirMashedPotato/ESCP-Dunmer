@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialA</defName>
+		<title>Vivec gondolier</title>
+		<titleShort>gondolier</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the many gondoliers working in the Vivec canals, and spent many days transporting Dunmer, and the occasional outlander, between the cantons. Whilst [PAWN_nameDef] found the job enjoyable, [PAWN_pronoun] was always annoyed watching all the potential customers simply walk past, and over a bridge to the next canton.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialB</defName>
+		<title>corprus refugee</title>
+		<titleShort>refugee</titleShort>
+		<baseDesc>[PAWN_nameDef] was forced out of [PAWN_possessive] old home when the town was quarantined due to a corprus outbreak. [PAWN_nameDef] decided to help the other refugees, and learnt some useful skills on the road to Vivec.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialC</defName>
+		<title>book shop owner</title>
+		<titleShort>book seller</titleShort>
+		<baseDesc>[PAWN_nameDef] owned a small bookshop in Vivec city, which specialised in selling rare books. One day the Ordinators visited [PAWN_possessive] shop, as they had heard certain heretical tomes were being sold there. Luckily [PAWN_nameDef] managed to escape before they arrived, though without a single drake to [PAWN_possessive] name.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialD</defName>
+		<title>prophet of Satakal</title>
+		<titleShort>prophet</titleShort>
+		<baseDesc>Many believed Satakal spoke directly through [PAWN_nameDef]. Of course this was considered somewhat heretical, as how could Satakal speak through [PAWN_nameDef] if he already speaks through Kind Orgnum. Needless to say, [PAWN_nameDef] eventually decided it was best to lay low for a while.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

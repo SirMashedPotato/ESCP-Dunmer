@@ -3,11 +3,11 @@
 
 	<!-- ========== [Assassins] ========== -->
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_MoragTongBackstory</defName>
 		<title>former Morag Tong member</title>
 		<titleShort>ex Morag Tong</titleShort>
-		<baseDescription>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the organisation. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of farming ash yams.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the organisation. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of farming ash yams.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -16,19 +16,19 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>1</amount>
+				<key>Plants</key>
+				<value>1</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
@@ -44,20 +44,20 @@
 				<degree>2</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_MoragTongBackstory_Alt</defName>
 		<title>former Morag Tong member</title>
 		<titleShort>ex Morag Tong</titleShort>
-		<baseDescription>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the organisation. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of ranching netch.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the organisation. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of ranching netch.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -66,19 +66,19 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>1</amount>
+				<key>Animals</key>
+				<value>1</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
@@ -94,20 +94,20 @@
 				<degree>2</degree>
 				<chance>15</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_MoragTongVeteranBackstory</defName>
 		<title>Morag Tong veteran</title>
 		<titleShort>ex Morag Tong</titleShort>
-		<baseDescription>Once a veteran member of the Morag Tong, [PAWN_nameDef] eventually became too recognisable for [PAWN_possessive] own good. [PAWN_possessive] accomplishments were well known throughout Morrowind, and this painted a target on [PAWN_possessive] back. So, like many before [PAWN_objective], [PAWN_nameDef] took the voyage to Vounoura, to live out the rest of [PAWN_possessive] days in peace.</baseDescription>
+		<baseDesc>Once a veteran member of the Morag Tong, [PAWN_nameDef] eventually became too recognisable for [PAWN_possessive] own good. [PAWN_possessive] accomplishments were well known throughout Morrowind, and this painted a target on [PAWN_possessive] back. So, like many before [PAWN_objective], [PAWN_nameDef] took the voyage to Vounoura, to live out the rest of [PAWN_possessive] days in peace.</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
@@ -115,15 +115,15 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>SpeedOffset</defName>
 				<degree>1</degree>
@@ -134,22 +134,22 @@
 				<degree>2</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ========== [Other] ========== -->
 	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_MoragTongInvestigatorBackstory</defName>
 		<title>Morag Tong investigator</title>
 		<titleShort>investigator</titleShort>
-		<baseDescription>As an investigator in the Morag Tong, [PAWN_nameDef] was tasked with seeking out those that have broken laws of the Tong. As unlike the Dark Brotherhood, the Morag Tong has an image to uphold, and [PAWN_nameDef] made sure that image was maintained</baseDescription>
+		<baseDesc>As an investigator in the Morag Tong, [PAWN_nameDef] was tasked with seeking out those that have broken laws of the Tong. As unlike the Dark Brotherhood, the Morag Tong has an image to uphold, and [PAWN_nameDef] made sure that image was maintained</baseDesc>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -158,16 +158,16 @@
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 </Defs>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Generic -->
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_BookstoreBackstory</defName>
+		<title>book shop owner</title>
+		<titleShort>book seller</titleShort>
+		<baseDesc>[PAWN_nameDef] owned a small bookshop in Vivec city, which specialised in selling rare books. One day the Ordinators visited [PAWN_possessive] shop, as they had heard certain heretical tomes were being sold there. Luckily [PAWN_nameDef] managed to escape before they arrived, though without a single drake to [PAWN_possessive] name.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_PoetBackstory</defName>
+		<title>wandering poet</title>
+		<titleShort>poet</titleShort>
+		<baseDesc>Inspired by the wonderful tales told by Vivec, [PAWN_nameDef] became a wandering poet. [PAWN_nameDef]'s adventures were quite dull and uneventful, though the stories [PAWN_pronoun] told were anything but. Sadly, at the end of the day, [PAWN_possessive] tales were nothing compared to those told by Vivec, and [PAWN_pronoun] often had to cook dinner for [PAWN_possessive]self.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_ChairMakerBackstory</defName>
+		<title>chair crafter</title>
+		<titleShort>crafter</titleShort>
+		<baseDesc>[PAWN_nameDef] earned a living making and selling chairs, with the occasional table thrown in too. [PAWN_possessive] work even managed to catch the eye of a rather high ranking member of Great House Telvanni. One day [PAWN_nameDef] woke up, ready to fulfil the days orders, only to find every single chair, and table, missing.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	
+
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_BrewerBackstory</defName>
+		<title>brewer</title>
+		<titleShort>brewer</titleShort>
+		<baseDesc>[PAWN_nameDef] oversaw a reasonably sized brewery in the Ascadian Isles. Many of the finest Dunmeri beverages were created there, all under [PAWN_nameDef]'s watchful eyes.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerHlaaluBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	
+
+	
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_SkoratiHerderBackstory</defName>
+		<title>skorati herder</title>
+		<titleShort>skorati herder</titleShort>
+		<baseDesc>[PAWN_nameDef] tended a small herd of skorati. Peaceful creatures, that [PAWN_pronoun] was rather fond of. As an extra bonus, [PAWN_nameDef] could create clothing out of skorati fur, which fetched a decent price in the nearby towns.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_BantamGuarBackstory</defName>
+		<title>bantam guar tender</title>
+		<titleShort>bantam guar tender</titleShort>
+		<baseDesc>[PAWN_nameDef] thought it would be a good idea to earn a living selling bantam guar eggs. Turns out bantam guar, while quite small, are overflowing with attitude, and they didn't much care for [PAWN_nameDef]. Eventually [PAWN_pronoun] was forced out of [PAWN_possessive] own dwellings, by an angry horde of bantam guar. [PAWN_nameDef] occasionally still wakes up in a cold sweat.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>-8</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Hunting</li>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_KemelZeExcavatorBackstory</defName>
+		<title>Kemel-Ze excavator</title>
+		<titleShort>excavator</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the many local excavators working in the Dwemer ruins of Kemel-Ze. Work there was hard, for one had to be extremely cautions of the surroundings, especially when members of the Imperial Archaeological Society were watching. But it was worth it, for the pouch of drakes [PAWN_nameDef] recieved at the end of each day was quite full.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_KemelZeResearcherBackstory</defName>
+		<title>Kemel-Ze researcher</title>
+		<titleShort>researcher</titleShort>
+		<baseDesc>[PAWN_nameDef] was lucky enough to be allowed access to Kemel-Ze, thanks to a rather influential friend. The ruins were a truly marvellous spectacle, [PAWN_nameDef] could spend years in there, and still find new things to study. Of course [PAWN_pronoun] had a habit of getting in the way of the Imperial Archaeological Societies work, not that [PAWN_pronoun] really cared.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_VeteranArnesianWarBackstory</defName>
+		<title>Arnesian War veteran</title>
+		<titleShort>veteran</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the many Dunmer who fought in the Arnesian War. [PAWN_pronoun] was one of many who heroically stormed Black Marsh. And one of the few left standing in land now belonging to Morrowind. In later days, [PAWN_nameDef] took up gardening, but is still surprisingly quick on [PAWN_possessive] feet.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<bioAgeRange>
+			<min>100</min>
+			<max>999</max>
+		</bioAgeRange>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_VeteranArnesianWarBackstory_Alt</defName>
+		<title>Arnesian War veteran</title>
+		<titleShort>veteran</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the many Dunmer who fought in the Arnesian War. [PAWN_pronoun] was one of many who heroically stormed Black Marsh. And one of the few left standing in land now belonging to Morrowind, though not entirely in one piece. In later days, [PAWN_nameDef] took up pottery, but is still surprisingly quick on [PAWN_possessive] foot.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<forcedHediffs>
+			<li>PegLeg</li>
+		</forcedHediffs>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+		<bioAgeRange>
+			<min>100</min>
+			<max>999</max>
+		</bioAgeRange>
+	</AlienRace.AlienBackstoryDef>
+	
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_VivecScaffolderBackstory</defName>
+		<title>Vivec scaffolder</title>
+		<titleShort>scaffolder</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many tasked with assembling and disassembling scaffolding around Vivec City. This was a rather cushy job, as pay was good, and there was a decent amount of downtime between work. Although the near constant presence of Ordinators did make [PAWN_nameDef] somewhat uncomfortable.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_YamMasherBackstory</defName>
+		<title>ash yam masher</title>
+		<titleShort>masher</titleShort>
+		<baseDesc>[PAWN_nameDef] had always longed for one particular thing, potatoes, which proved somewhat difficult to obtain in Vvardenfell. [PAWN_pronoun] just wanted to feel them crumble beneath [PAWN_possessive] fists, to hear them cry out in pain as their life was extinguished, to smell their essence leave their shapeless forms. Sadly, ash yams would have to do.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- Now begins the canton commoners -->
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StDelynPotterBackstory</defName>
+		<title>St. Delyn potter</title>
+		<titleShort>potter</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Potter's Hall of the St. Delyn canton. Admittedly the pay wasn't great, but the bed was cheap, and [PAWN_nameDef] enjoyed the work.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StDelynGlassworkerBackstory</defName>
+		<title>St. Delyn glassworker</title>
+		<titleShort>glassworker</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Glassworker's Hall of the St. Delyn canton. [PAWN_nameDef] was a bit annoyed when [PAWN_pronoun] realised they meant that kind of glass, but that did explain the pay, and [PAWN_nameDef] wasn't going to turn down the work.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsTailorBackstory</defName>
+		<title>St. Olms tailor</title>
+		<titleShort>tailor</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tailors and Dyers Hall of the St. Olms canton. Days were varied enough, some days shirts, other days pants, maybe even some gloves thrown in there. But [PAWN_nameDef] did eventually grow tired of it, and decided to move on.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsDyerBackstory</defName>
+		<title>St. Olms dyer</title>
+		<titleShort>dyer</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tailors and Dyers Hall of the St. Olms canton. [PAWN_pronoun] enjoyed working with all the dyes, in all their different colours, although there were a few colours [PAWN_nameDef] didn't much care for.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsBrewerBackstory</defName>
+		<title>St. Olms brewer</title>
+		<titleShort>brewer</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Brewers and Fishmongers Hall of the St. Olms canton. [PAWN_pronoun] always questioned why the brewers and fishmongers had to share a hall, what with the constant smell of fish tainting the alcohol.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsFishmongerBackstory</defName>
+		<title>St. Olms fishmonger</title>
+		<titleShort>fishmonger</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Brewers and Fishmongers Hall of the St. Olms canton. [PAWN_nameDef] looked forward to every day, mostly because [PAWN_pronoun] always knew there was a jug of sujamma with [PAWN_possessive] name on it, just a few steps away.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsTannerBackstory</defName>
+		<title>St. Olms tanner</title>
+		<titleShort>tanner</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tanners and Miners Hall of the St. Olms canton. Tanning hides was tiring and monotonous work, but conversations with the miners helped [PAWN_nameDef] through each day. [PAWN_nameDef] even picked up a few tricks from them.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsMinerBackstory</defName>
+		<title>St. Olms miner</title>
+		<titleShort>miner</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Tanners and Miners Hall of the St. Olms canton. When [PAWN_nameDef] wasn't working tirelessly in the mines, [PAWN_pronoun] could be found in the Hall, tending to the counter, or sometimes sharing tips with the tanners.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ESCP_Dunmer_StOlmsFarmerBackstory</defName>
+		<title>St. Olms farmer</title>
+		<titleShort>farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of many that found work in the Farmers and Labourers Hall of the St. Olms canton. While [PAWN_nameDef] occasionally helped out in the fields, most days were spent in the Hall itself, ensuring the shop was well stocked, and completing orders.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>
