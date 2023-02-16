@@ -4,41 +4,6 @@
 	<!-- Generic -->
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_SlaverBackstory</defName>
-		<title>plantation owner</title>
-		<titleShort>plantation owner</titleShort>
-		<baseDescription>[PAWN_nameDef] once owned a bustling moon sugar cane plantation. Many slaves passed through [PAWN_possessive] plantation, all of them equally disgusting vermin.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Fat</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defName>ESCP_Slaver</defName>
-				<chance>100</chance>
-			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-			<li>PlantWork</li>
-			<li>ManualDumb</li>
-			<li>Caring</li>
-		</workDisables>
-	</AlienRace.BackstoryDef>
-
-	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_NetchBackstory</defName>
 		<title>netch rancher</title>
 		<titleShort>netch rancher</titleShort>
@@ -258,66 +223,7 @@
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_SkoomaBackstory</defName>
-		<title>skooma seller</title>
-		<titleShort>entrepreneur</titleShort>
-		<baseDescription>[PAWN_nameDef] had the brilliant idea of starting [PAWN_possessive] own skooma buisness, a bustling market with profit margins most could only dream of. After a run in with an Ordinator, [PAWN_nameDef] decided to sample [PAWN_possessive] own product, leaving the past few years a blur.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Crafting</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-			<li>Animals</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-			<li>
-				<defName>DrugDesire</defName>
-				<degree>2</degree>
-				<chance>100</chance>
-			</li>
-			<li>
-				<defName>Nerves</defName>
-				<degree>-2</degree>
-				<chance>15</chance>
-			</li>
-			<li>
-				<defName>Neurotic</defName>
-				<degree>2</degree>
-				<chance>15</chance>
-			</li>
-			<li>
-				<defName>NaturalMood</defName>
-				<degree>-2</degree>
-				<chance>15</chance>
-			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_BonemoldBackstory</defName>
 		<title>bonemold smith</title>
@@ -395,41 +301,7 @@
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_PackRatBackstory</defName>
-		<title>rat trainer</title>
-		<titleShort>rat trainer</titleShort>
-		<baseDescription>One day [PAWN_nameDef] woke up and decided that [PAWN_pronoun] would train pack rats. Over [PAWN_possessive] years working in this emerging industry, [PAWN_pronoun] made a surprising amount of gold. Turns out rats are rather easy to train, and even easier to breed. And when times were tough, [PAWN_nameDef] always had something to eat.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Animals</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Cooking</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-			<li>
-				<defName>Gourmand</defName>
-			</li>
-		</disallowedTraits>
-		<workDisables>
-			<li>Mining</li>
-			<li>PlantWork</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
-
+	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_GhostFenceBackstory</defName>
 		<title>Ghostfence maintainer</title>
@@ -471,39 +343,6 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_SmithBackstory</defName>
-		<title>steel smith</title>
-		<titleShort>steel smith</titleShort>
-		<baseDescription>[PAWN_nameDef] was a master of steel, and made a small fortune selling steel armaments. [PAWN_possessive] blades adorned the hips of many Dunmer nobles.\n\nOf course this all came to an end when a competitor emerged. This may not have been a problem for [PAWN_nameDef], except that [PAWN_possessive] competitor forged Akaviri style blades. Soon [PAWN_nameDef] was left with only a pouch half-full of drakes.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Crafting</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-			<li>Animals</li>
-			<li>PlantWork</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ScribCircusBackstory</defName>
 		<title>scrib trainer</title>
 		<titleShort>scrib trainer</titleShort>
@@ -537,80 +376,7 @@
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_SlaughterfishBackstory</defName>
-		<title>slaughterfish eradicator</title>
-		<titleShort>eradicator</titleShort>
-		<baseDescription>[PAWN_nameDef] was part of a group tasked with clearing the Vivec canals of slaughterfish. Many slaughterfish were slain, and many members of the group were lost to their jaws. But [PAWN_nameDef] managed to survive the ordeal.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Animals</defName>
-				<amount>1</amount>
-			</li>
-			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_SlaughterfishBackstoryAlt</defName>
-		<title>slaughterfish eradicator</title>
-		<titleShort>eradicator</titleShort>
-		<baseDescription>[PAWN_nameDef] was part of a group tasked with clearing the Vivec canals of slaughterfish. Many slaughterfish were slain, and many members of the group were lost to their jaws. But [PAWN_nameDef] managed to survive the ordeal, albeit missing a leg.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Animals</defName>
-				<amount>1</amount>
-			</li>
-			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-		<forcedHediffs>
-			<li>PegLeg</li>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
+
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_GondolaBackstory</defName>
@@ -1099,163 +865,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_ArenaFighterBackstory</defName>
-		<title>arena fighter</title>
-		<titleShort>fighter</titleShort>
-		<baseDescription>[PAWN_nameDef] frequently visited the arena in Vivec. In fact [PAWN_pronoun] spent many hours a day fighting in the pit, so many in fact that [PAWN_pronoun] had accrued quite the fanbase. Sadly all the blows to [PAWN_possessive] head has left a lasting impact.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-			<li>Social</li>
-			<li>Caring</li>
-			<li>Intellectual</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-		<forcedHediffs>
-			<li>ESCP_ViolentMeditationHediff</li>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_AlchemistBackstory</defName>
-		<title>alchemist</title>
-		<titleShort>alchemist</titleShort>
-		<baseDescription>[PAWN_nameDef] was always willing to do anything to advance [PAWN_possessive] alchemical knowledge, even if it meant consuming somewhat... unconventional items. At the end of the day any pain [PAWN_nameDef] suffered was worth it, as the pouches of coin that accompanied fulfilled orders were quite heavy.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Fat</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>1</amount>
-			</li>
-			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Plants</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>1</degree>
-				<chance>25</chance>
-			</li>
-		</forcedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_AlchemistBackstoryAlt</defName>
-		<title>alchemist</title>
-		<titleShort>alchemist</titleShort>
-		<baseDescription>[PAWN_nameDef] was always willing to do anything to advance [PAWN_possessive] alchemical knowledge, even if it meant consuming somewhat... unconventional items. This willingness ended very abruptly one fateful day, when [PAWN_nameDef] bit down on a piece of Dwemer scrap metal.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>1</amount>
-			</li>
-			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Plants</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>1</degree>
-				<chance>25</chance>
-			</li>
-		</forcedTraits>
-		<forcedHediffs>
-			<li>Denture</li>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_FloristBackstory</defName>
-		<title>gardener</title>
-		<titleShort>gardener</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the few tasked with caring for Mournhold's exotic flowers. A highly important job, as without [PAWN_nameDef], Mournhold wouldn't look nearly as nice.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
-			</li>
-			<li>
-				<defName>Plants</defName>
-				<amount>5</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_BrewerBackstory</defName>
 		<title>brewer</title>
@@ -1293,89 +904,9 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_PossessedBackstory</defName>
-		<title>possessed</title>
-		<titleShort>possessed</titleShort>
-		<baseDescription>[PAWN_nameDef] claims to be possessed by a vengeful ancestral spirit. This likely occurred during one of [PAWN_objective] frequent excursions to pilfer ancestral tombs, but [PAWN_nameDef] will never admit that.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		  <li>ESCP_DunmerAshlanderBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>Nerves</defName>
-				<degree>-1</degree>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>Nerves</defName>
-				<degree>-2</degree>
-				<chance>50</chance>
-			</li>
-		</forcedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
-		<maleCommonality>25</maleCommonality>
-		<femaleCommonality>25</femaleCommonality>
-	</AlienRace.BackstoryDef>
+
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_MercanaryBackstory</defName>
-		<title>mercenary</title>
-		<titleShort>mercenary</titleShort>
-		<baseDescription>[PAWN_nameDef] was quite knowledgeable when it came to the harsh lands of Vvardenfell, and knew how to deal with all the various dangers that could be encountered there. From bandits to cliff racers, if you needed protection while out in the ashen wastes, [PAWN_nameDef] was who you wanted to hire.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
-	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_SkoratiHerderBackstory</defName>
 		<title>skorati herder</title>
@@ -1577,41 +1108,7 @@
 		</bioAgeRange>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_DrunkardBackstory</defName>
-		<title>drunkard</title>
-		<titleShort>drunkard</titleShort>
-		<baseDescription>[PAWN_nameDef] claims to be a veteran of the Arnesian War. No one really believes [PAWN_objective], but occasionally someone takes pity, and gives [PAWN_objective] a few drakes. Those drakes are usually immediately spent on another bottle of sujamma, [PAWN_nameDef]'s favourite.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedHediffs>
-			<li>AlcoholTolerance</li>
-			<li>AlcoholAddiction</li>
-		</forcedHediffs>
-		<maleCommonality>25</maleCommonality>
-		<femaleCommonality>25</femaleCommonality>
-	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_VivecScaffolderBackstory</defName>
 		<title>Vivec scaffolder</title>

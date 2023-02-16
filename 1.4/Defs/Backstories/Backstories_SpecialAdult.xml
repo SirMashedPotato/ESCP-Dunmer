@@ -85,89 +85,6 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_BladesAgentBackstory</defName>
-		<title>blades agent</title>
-		<titleShort>agent</titleShort>
-		<baseDescription>The locals knew [PAWN_nameDef] as a carpenter, a fisherman, or sometimes a member of the local guild. [PAWN_nameDef], assuming that is [PAWN_possessive] real name, was actually an agent of the Emperor's Blades, whose sole purpose was to monitor the Nerevarine prophecies.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-		</forcedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_ArenaChampionBackstory</defName>
-		<title>arena champion</title>
-		<titleShort>champion</titleShort>
-		<baseDescription>Many have entered the pit in the Vivec arena in search of fame, fortune and glory. Many felt the same sinking feeling in their stomach when faced with the sight of [PAWN_nameDef], and usually felt absolutely nothing shortly after.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName> <!-- + 4 from brawler -->
-				<amount>10</amount>
-			</li>
-		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
-		<workDisables>
-			<li>Commoner</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraits>
-			<li>
-				<defName>Brawler</defName>
-				<chance>100</chance>
-			</li>
-			<li>
-				<defName>Tough</defName>
-				<chance>100</chance>
-			</li>
-		</forcedTraits>
-		<forcedHediffs>
-			<li>ESCP_ViolentMeditationHediff</li>
-		</forcedHediffs>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ClockworkTinkererBackstory</defName>
 		<title>clockwork tinkerer</title>
 		<titleShort>clockwork tinkerer</titleShort>
@@ -232,38 +149,6 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_EarthlyDelightsBackstory</defName>
-		<title>acrobat</title>
-		<titleShort>acrobat</titleShort>
-		<baseDescription>[PAWN_nameDef] was an acrobat, or at least that's what [PAWN_pronoun] told anyone who asked. While [PAWN_pronoun] is quite flexible, in reality, [PAWN_nameDef] worked at the House of Earthly Delights, a place one could describe as a tavern, but most visited for other purposes.</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Social</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>10</femaleCommonality>
-		<workDisables>
-			<li>PlantWork</li>
-		</workDisables>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
 		<defName>ESCP_Dunmer_ArgonianBackstory</defName>
 		<title>argonian</title>
 		<titleShort>argonian</titleShort>
@@ -291,36 +176,6 @@
 		<femaleCommonality>5</femaleCommonality>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef>
-		<defName>ESCP_Dunmer_KhajiitBackstory</defName>
-		<title>khajiit</title>
-		<titleShort>khajiit</titleShort>
-		<baseDescription>While [PAWN_nameDef] had been a skooma addict for quite some time, a particularly bad batch sent [PAWN_objective] spiralling down a strange, and somewhat unfortunate, serious of events. Eventually [PAWN_nameDef] woke up one day, in a strange land, covered in fur, and with absolutely no recollection of the past few months. For some reason, this made complete sense to [PAWN_nameDef], for [PAWN_pronoun] was in fact a Khajiit, and totally not a Dunmer</baseDescription>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		  <li>ESCP_DunmerSlaveBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-	</AlienRace.BackstoryDef>
-
 	<!-- Character based-->
 
 	<AlienRace.BackstoryDef>
