@@ -125,7 +125,6 @@
 						<defs>
 							<li>ESCP_DunmerBurialUrn</li>
 							<li>ESCP_Dunmer_AshBurialPit_SquareCorner</li>
-							<li>ESCP_Dunmer_AshBurialPit_NoInnerCorner</li>
 						</defs>
 						<offsetPerBuilding>0.005</offsetPerBuilding>
 						<radius>9.9</radius>
@@ -180,7 +179,7 @@
 	<!-- ==========[ESCP_Dunmer_AshBurialPit_SquareCorner]========== -->
 	<ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
 		<defName>ESCP_Dunmer_AshBurialPit_SquareCorner</defName>
-		<label>ash burial pit (square corner)</label>
+		<label>ash burial pit</label>
 		<graphicData>
 			<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_AngledCorner_Atlas</texPath>
 		</graphicData>
@@ -195,6 +194,7 @@
 		</building>
 	</ThingDef>
 	<!-- ==========[ESCP_Dunmer_AshBurialPit_NoInnerCorner]========== -->
+	<!--
 	<ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
 		<defName>ESCP_Dunmer_AshBurialPit_NoInnerCorner</defName>
 		<label>ash burial pit (no inner corner)</label>
@@ -211,4 +211,5 @@
 			</fullGraveGraphicData>
 		</building>
 	</ThingDef>
+	-->
 </Defs>
