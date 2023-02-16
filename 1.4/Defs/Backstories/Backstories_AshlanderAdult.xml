@@ -110,24 +110,6 @@
 	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCookingB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
 		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCookingB</defName>
-		<title>tea brewer</title>
-		<titleShort>brewer</titleShort>
-		<baseDesc>[PAWN_nameDef] spent many days brewing tea for [PAWN_possessive] tribe members. As [PAWN_possessive] tribe was forced to live in the ashlands, there wasn't exactly a great wealth of plant life to brew tea from. So [PAWN_nameDef] was usually forced to brew trama root and bittergreen tea yet again.</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<skillGains>
-			<li>
-				<key>Cooking</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>2</value>
-			</li>
-		</skillGains>
-	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCookingB]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
-		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCookingB</defName>
 		<title>cook</title>
 		<titleShort>cook</titleShort>
 		<baseDesc>[PAWN_nameDef] was [PAWN_possessive] tribes cook. Not a particularly enjoyable job, as the ingredients often lacked variety, and [PAWN_possessive] tribe members often voiced their distaste of being fed cliff racer stew again.</baseDesc>
@@ -144,6 +126,24 @@
 		</skillGains>
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+		<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCookingC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
+		<defName>ESCP_DunmeAshlanderBackstory_AdulthoodCookingC</defName>
+		<title>tea brewer</title>
+		<titleShort>brewer</titleShort>
+		<baseDesc>[PAWN_nameDef] spent many days brewing tea for [PAWN_possessive] tribe members. As [PAWN_possessive] tribe was forced to live in the ashlands, there wasn't exactly a great wealth of plant life to brew tea from. So [PAWN_nameDef] was usually forced to brew trama root and bittergreen tea yet again.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [CRAFTING] ==================== -->
 	<!-- ==========[ESCP_DunmeAshlanderBackstory_AdulthoodCraftingA]========== -->
