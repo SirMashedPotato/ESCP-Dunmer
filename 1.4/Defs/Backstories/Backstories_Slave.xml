@@ -86,7 +86,7 @@
 		<femaleCommonality>15</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SlaveD]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
 		<defName>ESCP_DunmerBackstory_Adulthood_SlaveD</defName>
 		<title>argonian</title>
 		<titleShort>argonian</titleShort>
