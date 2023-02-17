@@ -75,7 +75,7 @@
 		<femaleCommonality>10</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_MoragTongC]========== -->
-	<AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
 		<defName>ESCP_DunmerBackstory_Adulthood_MoragTongC</defName>
 		<title>Morag Tong investigator</title>
 		<titleShort>investigator</titleShort>
