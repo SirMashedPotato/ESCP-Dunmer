@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniBase]========== -->
+<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase" Name="ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_DunmerGreatHouse_Telvanni_Adulthood</li>
+		</spawnCategories>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+<!-- ==================== [Tier 1] ==================== -->
+<!-- ==================== [Special] ==================== -->
 	<AlienRace.AlienBackstoryDef>
 		<defName>ESCP_Dunmer_IndorilBackstory</defName>
 		<title>house Indoril member</title>
