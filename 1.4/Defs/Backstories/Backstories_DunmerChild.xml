@@ -127,9 +127,9 @@
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmerBackstory_ChildhoodIntellectualB]========== -->
+	<!-- ==========[ESCP_DunmerBackstory_ChildhoodIntellectualC]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
-		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualB</defName>
+		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualC</defName>
 		<title>clone child</title>
 		<titleShort>clone</titleShort>
 		<baseDesc>[PAWN_nameDef] wasn't exactly born like most others. Instead, [PAWN_pronoun] was cloned by, and from, a rather high ranking member of Great House Telvanni. Inheriting quite a bit of [PAWN_possessive] fathers intellect, [PAWN_nameDef] was sure to follow in [PAWN_possessive] fathers footsteps.</baseDesc>
@@ -151,9 +151,9 @@
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmerBackstory_ChildhoodIntellectualC]========== -->
+	<!-- ==========[ESCP_DunmerBackstory_ChildhoodIntellectualD]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
-		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualC</defName>
+		<defName>ESCP_DunmerBackstory_ChildhoodIntellectualD</defName>
 		<title>apprentice bonewalker creator</title>
 		<titleShort>apprentice</titleShort>
 		<baseDesc>[PAWN_nameDef] was always fascinated by the creation process of bonewalkers. Thanks to diligent study, [PAWN_pronoun] was given the chance to join an apprenticeship in Necrom, studying under a master bonewalker creator. Needless to say, [PAWN_nameDef] eagerly accepted the offer.</baseDesc>
