@@ -1,117 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_AshlanderBackstory</defName>
-		<title>ashlander</title>
-		<titleShort>ashlander</titleShort>
-		<baseDesc>[PAWN_nameDef] used to be an ashlander from the Ahemmusa Tribe. [PAWN_nameDef] enjoyed living a relatively simple life, where death awaited around every corner. Though [PAWN_pronoun] eventually got sick of all the ash and blight storms, and decided to look for greener pastures, with actual grass.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>2</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
-		<forcedHediffs>
-		</forcedHediffs>
-	</AlienRace.AlienBackstoryDef>
-	
-<!-- ==========[ESCP_MaormerBackstory_Adulthood_SeaViperA]========== -->
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_BonewalkerKnowledge_Backstory</defName>
-		<title>master bonewalker creator</title>
-		<titleShort>bonewalker master</titleShort>
-		<baseDesc>[PAWN_nameDef] spent many years reading through the texts kept in Necrom, many years studying the corpses sent to be prepared for burial, and many years perfecting the art of bonewalker creation. Needless to say, [PAWN_nameDef] may be one of the most skilled bonewalker creators to have ever existed.\n\nAny bonewalker or bonelord [PAWN_nameDef] activates will be one quality level higher than normal, and will be able to surpass legendary quality.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-			<li>ESCP_DunmerBackstory</li>
-			<li>ESCP_TribunalBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Crafting</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>6</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-			<li>Animals</li>
-			<li>PlantWork</li>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraitsChance>
-			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
-				<chance>30</chance>
-			</li>
-		</forcedTraitsChance>
-		<forcedHediffs>
-			<li MayRequire="SirMashedPotato.MorrowRim.Bonewalkers">MorrowRim_BonewalkerKnowledgeBook_VolOne</li>
-		</forcedHediffs>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_MoragTongMarkedBackstory</defName>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SpecialMarked]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SpecialMarked</defName>
 		<title>marked by the Morag Tong</title>
 		<titleShort>marked</titleShort>
-		<baseDesc>[PAWN_nameDef] may have 'borrowed' from a shop keeper in Vivec City. Turns out the shop keeper knew someone rather high up in the Morag Tong. Now [PAWN_nameDef] has fled for [PAWN_possessive] life to lands unknown, hoping that the Morag Tong won't follow.</baseDesc>
-		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] may have 'borrowed' from a shop keeper in Vivec City. Turns out the shop keeper knew someone rather high up in the Morag Tong. Now [PAWN_nameDef] has fled for [PAWN_possessive] life, hoping that the Morag Tong won't follow.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>2</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
-		<forcedItems>
-		</forcedItems>
 		<forcedTraitsChance>
 			<li>
 				<defName>QuickSleeper</defName>
-				<chance>50</chance>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Nerves</defName>
@@ -124,21 +26,17 @@
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-
-	<!-- Relatively generic -->
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_IncarnateBackstory</defName>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SpecialIncarnate]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SpecialIncarnate</defName>
 		<title>incarnate</title>
 		<titleShort>incarnate</titleShort>
-		<baseDesc>[PAWN_nameDef] was lead to believe [PAWN_pronoun] was The Incarnate. After seeking out the Urshilaku tribe, [PAWN_pronoun] managed to make it through the first two trials, and was then directed to find the Cavern of the Incarnate. [PAWN_nameDef] stood in front of the door for what felt like hours, waiting for the right moment to open the door.\n\nBut [PAWN_nameDef] never felt that momment come. Truth be told, [PAWN_pronoun] always had [PAWN_possessive] doubts, and was afraid of finding out the truth. The weight of the Dunmer was simply too much to bear. Sure, [PAWN_pronoun] had made it through the first two trials, but what if that was only through pure luck?\n\nSo [PAWN_nameDef] walked away.</baseDesc>
-		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] was lead to believe [PAWN_pronoun] was The Incarnate. After seeking out the Urshilaku tribe, [PAWN_pronoun] managed to make it through the first two trials, and was then directed to find the Cavern of the Incarnate. [PAWN_nameDef] stood in front of the door for what felt like hours, waiting for the right moment to open the door.\n\nBut [PAWN_nameDef] never felt that moment come. Truth be told, [PAWN_pronoun] always had [PAWN_possessive] doubts, and was afraid of finding out the truth. The weight of the Dunmer was simply too much to bear. Sure, [PAWN_pronoun] had made it through the first two trials, but what if that was only through pure luck?\n\nSo [PAWN_nameDef] walked away.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -157,271 +55,7 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
-		<forcedHediffs>
-		</forcedHediffs>
-		<maleCommonality>15</maleCommonality>
-		<femaleCommonality>15</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_WerewolfHunterBackstory</defName>
-		<title>trophy hunter</title>
-		<titleShort>hunter</titleShort>
-		<baseDesc>There are many great beasts in Morrowind, and [PAWN_nameDef] has hunted them all. On a quest for new challenges, [PAWN_pronoun] set sail to Solstheim. [PAWN_nameDef] hunted everything [PAWN_pronoun] found, from rieklings to grahl, and even an uderfrykte. However there was one elusive beast left on [PAWN_possessive] list, the werewolf.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>3</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
-		<forcedItems>
-		</forcedItems>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
-		<forcedHediffs>
-		</forcedHediffs>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_ClockworkTinkererBackstory</defName>
-		<title>clockwork tinkerer</title>
-		<titleShort>clockwork tinkerer</titleShort>
-		<baseDesc>One day [PAWN_nameDef] fished up a strange fish, a fish unlike any other, for it was a clockwork fish. That fateful moment sent [PAWN_possessive] on a several year journey, all to make sense of this strange fish. [PAWN_nameDef] learnt much from tinkering with the fish, so much in fact that upon reaching the Clockwork City, Sotha Sil actually welcomed [PAWN_nameDef], and even granted [PAWN_objective] some knowledge.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Crafting</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>6</value>
-			</li>
-		</skillGains>
-		<forcedTraitsChance>
-			<li>
-				<defName>ESCP_SothaSilBlessing</defName>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-		<workDisables>
-			<li>Animals</li>
-			<li>PlantWork</li>
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_MudcrabMerchantBackstory</defName>
-		<title>adventurer</title>
-		<titleShort>adventurer</titleShort>
-		<baseDesc>[PAWN_nameDef] set off on a grand adventure, to retrieve [PAWN_pronoun] bottle of vintage greef, which went missing on a stormy night many moons ago.\n\n[PAWN_possessive] neighbour swears they saw a mudcrab wander off with it. Obviously the idea of a mudcrab breaking into ones home, climbing up the stairs, and reaching up to a shelf, all while avoiding makin a single sound, is simply preposterous. But maybe there was some truth to it.\n\nOn [PAWN_possessive] journey, [PAWN_nameDef] learnt that many others have had bottles of alcohol stolen in the middle of the night. And all of them believe that a mudcrab is the culprit.\n\nSo now, [PAWN_nameDef] wanders the ashen wastes, the putrid swamps, and the fungal forest, all in search of that mudcrab.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>3</value>
-			</li>
-		</skillGains>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-		<workDisables>
-			<li>Animals</li>
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_ArgonianBackstory</defName>
-		<title>argonian</title>
-		<titleShort>argonian</titleShort>
-		<baseDesc>Many moons ago, [PAWN_nameDef] was a slave master at one of the many plantations found in Morrowind. One day, [PAWN_nameDef] suffered a rather serious head injury. Luckily [PAWN_pronoun] awoke fairly quickly, however [PAWN_pronoun] awoke surrounded by Argonian slaves.\n\nDue to some mild brain damage, [PAWN_nameDef] has since believed that [PAWN_pronoun] is in fact an Argonian. [PAWN_pronoun] spent many months tending the fields, alongside [PAWN_possessive] former slaves, now turned brothers in arms.\n\nEventually the plantation owner took pity on [PAWN_nameDef], and set [PAWN_objective] free.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		  <li>ESCP_DunmerSlaveBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Animals</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
-		</skillGains>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-		<maleCommonality>5</maleCommonality>
-		<femaleCommonality>5</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<!-- Character based-->
-
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_JiubBackstory</defName>
-		<title>reformed degenerate</title>
-		<titleShort>reformed degenerate</titleShort>
-		<baseDesc>[PAWN_nameDef] was once a filthy degenerate, who would do anything for skooma, even commit murder. While committing a heinous crime [PAWN_possessive] life was almost lost.\n\n[PAWN_nameDef] was saved in an act of unexpected kindness. Afterwards, [PAWN_pronoun] vowed to commit [PAWN_possessive]self to one goal. The protection of the Dunmeri people from a hellish abomination.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>4</value>
-			</li>
-		</skillGains>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
-		<maleCommonality>1</maleCommonality>
-		<femaleCommonality>1</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_FathisBackstory</defName>
-		<title>false Incarnate</title>
-		<titleShort>false Incarnate</titleShort>
-		<baseDesc>[PAWN_nameDef] was led to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_pronoun] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_pronoun] was going to save Morrowind.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		  <li>ESCP_DunmerTelvanniBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>4</value>
-			</li>
-		</skillGains>
-		<forcedTraitsChance>
-			<li>
-				<defName>Psychopath</defName>
-				<chance>100</chance>
-			</li>
-			<li>
-				<defName>Abrasive</defName>
-				<chance>100</chance>
-			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>3</degree>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-			<li>PlantWork</li>
-			<li>ManualDumb</li>
-			<li>Caring</li>
-		</workDisables>
-		<maleCommonality>1</maleCommonality>
-		<femaleCommonality>1</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef>
-		<defName>ESCP_Dunmer_EddieBackstory</defName>
-		<title>Telvanni Mouth</title>
-		<titleShort>Mouth</titleShort>
-		<baseDesc>Once a disgraced member of the Mages Guild, [PAWN_nameDef] was recruited by an up-and-coming member of Great House Telvanni, quickly rising to the rank of Mouth. [PAWN_possessive] skills, and general lack of care for the concept of ownership, proved highly useful for the soon-to-be Archmagister.\n\nThough, eventually [PAWN_nameDef] decided to move on in life, and pursue other desires.</baseDesc>
-		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		  <li>ESCP_DunmerBackstory</li>
-		  <li>ESCP_DunmerTelvanniBackstory</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>4</value>
-			</li>
-		</skillGains>
-		<forcedTraitsChance>
-			<li>
-				<defName>Greedy</defName>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>3</degree>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-			<li>Caring</li>
-		</workDisables>
-		<maleCommonality>1</maleCommonality>
-		<femaleCommonality>1</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
 </Defs>

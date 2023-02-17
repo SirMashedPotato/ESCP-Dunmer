@@ -102,10 +102,63 @@
 				<value>3</value>
 			</li>
 		</skillGains>
-		<spawnCategories>
-			<li>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</li>
-		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialF</defName>
+		<title>former Camonna Tong member</title>
+		<titleShort>ex Tong</titleShort>
+		<baseDesc>[PAWN_nameDef] spent many years in the Camonna Tong. [PAWN_pronoun] followed the strict code of 'what's yours is mine', and amassed quite the wealth because of it. Sadly, all good things must come to an end. [PAWN_nameDef] was caught, jailed, and stripped of all that hard earned wealth. After escaping [PAWN_nameDef] thought it best to find somewhere to lie low, and maybe start a new life.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+				<chance>70</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_SocialG]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_SocialG</defName>
+		<title>former Syvvit Tong member</title>
+		<titleShort>ex Tong</titleShort>
+		<baseDesc>[PAWN_nameDef] was once part of the Syvvit Tong, a relatively small Tong that managed to gain control of trade in Vhul. That all came to an end one day, when some outlander started investigating their operation. Luckily [PAWN_nameDef] managed to sneak off before the Ordinators arrived.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+				<chance>70</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

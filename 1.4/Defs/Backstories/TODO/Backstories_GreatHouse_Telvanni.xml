@@ -954,5 +954,97 @@
 		<forcedHediffs>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
+	
+		
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_Dunmer_FathisBackstory</defName>
+		<title>false Incarnate</title>
+		<titleShort>false Incarnate</titleShort>
+		<baseDesc>[PAWN_nameDef] was led to believe that [PAWN_pronoun] was Nerevarine reborn by a local Blades agent. This turned out to not be the case, but [PAWN_pronoun] still believed. The locals of Sadrith Mora came to call [PAWN_nameDef] 'The Deranged', as [PAWN_pronoun] would constantly spout off about how [PAWN_pronoun] was going to save Morrowind.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>1</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_Dunmer_EddieBackstory</defName>
+		<title>Telvanni Mouth</title>
+		<titleShort>Mouth</titleShort>
+		<baseDesc>Once a disgraced member of the Mages Guild, [PAWN_nameDef] was recruited by an up-and-coming member of Great House Telvanni, quickly rising to the rank of Mouth. [PAWN_possessive] skills, and general lack of care for the concept of ownership, proved highly useful for the soon-to-be Archmagister.\n\nThough, eventually [PAWN_nameDef] decided to move on in life, and pursue other desires.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_DunmerBackstory</li>
+		  <li>ESCP_DunmerTelvanniBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>1</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
 
 </Defs>
