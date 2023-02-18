@@ -139,7 +139,7 @@
 		<skillGains>
 			<li>
 				<key>Crafting</key>
-				<value>2</value>
+				<value>3</value>
 			</li>
 			<li>
 				<key>Shooting</key>
@@ -191,11 +191,11 @@
 		<skillGains>
 			<li>
 				<key>Animals</key>
-				<value>2</value>
+				<value>3</value>
 			</li>
 			<li>
 				<key>Intellectual</key>
-				<value>2</value>
+				<value>3</value>
 			</li>
 			<li>
 				<key>Medicine</key>
@@ -207,5 +207,22 @@
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Tier 3] ==================== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT3A]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2Base">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseHlaaluT3A</defName>
+		<title>Hlaalu Councilman</title>
+		<titleShort>Councilman</titleShort>
+		<baseDesc>[PAWN_nameDef] was once a Councilman of Great House Hlaalu. It was a nice job, as it involved doing basically nothing at all, while still making excessive amounts of money. At least it was, until someone investigated where all the drakes were going. Luckily [PAWN_nameDef] had saved up quite a reasonable amount, and was able to easily bribe the guards.</baseDesc>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>11</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Special] ==================== -->
 </Defs>

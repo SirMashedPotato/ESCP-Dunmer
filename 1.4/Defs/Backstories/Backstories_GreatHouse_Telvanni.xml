@@ -79,7 +79,7 @@
 			</li>
 			<li>
 				<key>Plants</key>
-				<value>1</value>
+				<value>2</value>
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
@@ -250,7 +250,7 @@
 			</li>
 			<li>
 				<key>Melee</key>
-				<value>8</value>
+				<value>10</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -267,7 +267,7 @@
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
-				<value>8</value>
+				<value>10</value>
 			</li>
 			<li>
 				<key>Melee</key>

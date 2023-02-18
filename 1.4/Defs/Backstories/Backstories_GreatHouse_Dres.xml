@@ -33,9 +33,32 @@
 		<femaleCommonality>30</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Tier 1] ==================== -->
-	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1A]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1A]========== -->
+<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1A</defName>
+		<title>Dres member</title>
+		<titleShort>member</titleShort>
+		<baseDesc>[PAWN_nameDef] was a fairly unremarkable member of Great House Dres, a traditionalist house famous for its slave plantations. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1B]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1B</defName>
 		<title>Dres wasp rider</title>
 		<titleShort>rider</titleShort>
 		<baseDesc>House Dres made great use of the gaint wasps that called the Deshaan Plains their home, and [PAWN_nameDef] was well versed in the art of riding one. [PAWN_pronoun] was often found patrolling the slave fields, keeping a close eye out for any attempted runaways.</baseDesc>
@@ -55,9 +78,9 @@
 			<li>PlantWork</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1B]========== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1C]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
-		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1B</defName>
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1C</defName>
 		<title>Dres slave hunter</title>
 		<titleShort>hunter</titleShort>
 		<baseDesc>[PAWN_nameDef] was one of the many slave hunters trained by House Dres. [PAWN_objective], and [PAWN_possessive] fellow hunters, would scour the outskirts of Black Marsh, looking for easy targets. If [PAWN_nameDef] couldn't find any, [PAWN_possessive] trained nix hounds would.</baseDesc>
@@ -78,9 +101,9 @@
 			<li>PlantWork</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1C]========== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1D]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
-		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1C</defName>
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1D</defName>
 		<title>Dres slave tender</title>
 		<titleShort>tender</titleShort>
 		<baseDesc>Sometimes slaves would suffer a bit of wear and tear, and seeing as good slaves are not easy to replace, someone has to get them back in working order. [PAWN_nameDef] was such person. Whether it was some scrapes, bruises, a broken rib, or missing fingers, [PAWN_pronoun] would get them all patched up, and back into the fields.</baseDesc>
@@ -101,9 +124,9 @@
 			<li>PlantWork</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1D]========== -->
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1E]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseDresBase">
-		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1D</defName>
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseDresT1E</defName>
 		<title>Dres farmer</title>
 		<titleShort>farmer</titleShort>
 		<baseDesc>Not everyone living in Great House Dres territory had the luxury of relying on slaves. Some, like [PAWN_nameDef], had to work the fields themselves. This of course doesn't mean [PAWN_objective] was against slavery, quite the opposite in fact.</baseDesc>
