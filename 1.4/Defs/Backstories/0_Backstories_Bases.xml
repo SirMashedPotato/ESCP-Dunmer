@@ -22,7 +22,10 @@
 			ESCP_DunmerGreatHouse_Dagoth_Adulthood
 
 			[Generic pawnKinds]
-			ESCP_DunmerMageBackstory	
+			ESCP_DunmerMageBackstory
+			
+			[Specific pawnKinds]
+			ESCP_DunmerFaction_HerHand_Adulthood	
 	-->
 	<!-- ==========[ESCP_Dunmer_ChildhoodBase]========== -->
 	<AlienRace.AlienBackstoryDef Name="ESCP_Dunmer_ChildhoodBase" Abstract="True" >

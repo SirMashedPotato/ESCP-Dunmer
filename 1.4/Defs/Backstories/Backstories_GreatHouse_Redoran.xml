@@ -163,7 +163,7 @@
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<li>
-				<key>construction</key>
+				<key>Construction</key>
 				<value>8</value>
 			</li>
 		</skillGains>

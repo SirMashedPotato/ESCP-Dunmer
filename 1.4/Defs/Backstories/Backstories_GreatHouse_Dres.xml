@@ -142,9 +142,6 @@
 				<value>5</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>PlantWork</li>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Tier 2] ==================== -->
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseDresT2A]========== -->

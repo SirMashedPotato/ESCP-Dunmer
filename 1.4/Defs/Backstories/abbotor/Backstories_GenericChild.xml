@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_StreetRat]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_StreetRat</defName>
 		<title>street rat</title>
 		<titleShort>street rat</titleShort>
@@ -16,9 +16,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_ApprenticeMage]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_ApprenticeMage</defName>
 		<title>mage's apprentice</title>
 		<titleShort>mage's apprentice</titleShort>
@@ -34,9 +34,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_HouseServant]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_HouseServant</defName>
 		<title>house servant</title>
 		<titleShort>house servant</titleShort>
@@ -52,9 +52,9 @@
 			</li>
 			
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_HouseNoble]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_HouseNoble</defName>
 		<title>Dunmer house noble</title>
 		<titleShort>noble</titleShort>
@@ -75,9 +75,9 @@
 			<li>Mining</li>
 			<li>ManualDumb</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_Fieldhand]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_Fieldhand</defName>
 		<title>plantation fieldhand</title>
 		<titleShort>fieldhand</titleShort>
@@ -92,9 +92,9 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_Ashlander]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_Ashlander</defName>
 		<title>ashlander tribe child</title>
 		<titleShort>ashlander</titleShort>
@@ -112,9 +112,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_AssistantAlchemist]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_AssistantAlchemist</defName>
 		<title>alchemist's assistant</title>
 		<titleShort>alchemist's assistant</titleShort>
@@ -133,9 +133,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_SixthHouseCultist]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_SixthHouseCultist</defName>
 		<title>sixth house cultist</title>
 		<titleShort>cultist</titleShort>
@@ -162,9 +162,9 @@
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_Dreamer]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_Dreamer</defName>
 		<title>dreamer</title>
 		<titleShort>dreamer</titleShort>
@@ -192,9 +192,9 @@
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_TempleAttendant]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_TempleAttendant</defName>
 		<title>temple attendant</title>
 		<titleShort>temple attendant</titleShort>
@@ -216,9 +216,9 @@
 				<chance>15</chance>
 			</li>
 		</forcedTraitsChance>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_ShipsMate]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_ShipsMate</defName>
 		<title>ship's mate</title>
 		<titleShort>ship's mate</titleShort>
@@ -233,9 +233,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_ArmigersPage]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_ArmigersPage</defName>
 		<title>armiger's page</title>
 		<titleShort>page</titleShort>
@@ -250,9 +250,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_Thief]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_ThievesGuildTrainee</defName>
 		<title>thieves guild trainee</title>
 		<titleShort>trainee</titleShort>
@@ -271,9 +271,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_FightersGuildTrainee]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_FightersGuildTrainee</defName>
 		<title>fighters' guild trainee</title>
 		<titleShort>fighter's guild trainee</titleShort>
@@ -290,9 +290,9 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_ShopkeepsAssistant]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_ShopkeepsAssistant</defName>
 		<title>shopkeep's assistant</title>
 		<titleShort>shopkeep's assistant</titleShort>
@@ -307,9 +307,9 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_BlacksmithsApprentice]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_BlacksmithsApprentice</defName>
 		<title>blacksmith's apprentice</title>
 		<titleShort>blacksmith's apprentice</titleShort>
@@ -326,9 +326,9 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_SiltStriderCaretaker]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_SiltStriderCaretaker</defName>
 		<title>silt strider caretaker</title>
 		<titleShort>silt strider caretaker</titleShort>
@@ -343,9 +343,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_DwemerHistoryStudent]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_abbator_Dunmer_DwemerHistoryStudent</defName>
 		<title>dwemer history student</title>
 		<titleShort>dwemer history student</titleShort>
@@ -366,9 +366,9 @@
 		</skillGains>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_BanditChild]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_BanditChild</defName>
 		<title>bandit child</title>
 		<titleShort>bandit child</titleShort>
@@ -389,9 +389,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_YoungAdventurer]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_YoungAdventurer</defName>
 		<title>young adventurer</title>
 		<titleShort>young adventurer</titleShort>
@@ -410,9 +410,9 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Abbator_Childhood_HealerInTraining]========== -->
-	<AlienRace.BackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
 		<defName>ESCP_DunmerBackstory_Abbator_Childhood_HealerInTraining</defName>
 		<title>healer-in-training</title>
 		<titleShort>healer-in-training</titleShort>
@@ -430,5 +430,5 @@
 				<value>1</value>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 </Defs>
