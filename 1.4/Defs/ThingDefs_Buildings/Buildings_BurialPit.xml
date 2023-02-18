@@ -125,6 +125,7 @@
 						<defs>
 							<li>ESCP_DunmerBurialUrn</li>
 							<li>ESCP_Dunmer_AshBurialPit_SquareCorner</li>
+							<li>ESCP_Dunmer_AshBurialPit_RoundedCorner</li>
 						</defs>
 						<offsetPerBuilding>0.005</offsetPerBuilding>
 						<radius>9.9</radius>
@@ -179,17 +180,34 @@
 	<!-- ==========[ESCP_Dunmer_AshBurialPit_SquareCorner]========== -->
 	<ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
 		<defName>ESCP_Dunmer_AshBurialPit_SquareCorner</defName>
-		<label>ash burial pit</label>
+		<label>ash burial pit (squared corner)</label>
 		<graphicData>
-			<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_AngledCorner_Atlas</texPath>
+			<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_Atlas</texPath>
 		</graphicData>
-		<uiIconPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_AngledCorner_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_MenuIcon</uiIconPath>
 		<building>
 			<blueprintGraphicData>
-				<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_AngledCorner_BlueprintAtlas</texPath>
+				<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_BlueprintAtlas</texPath>
 			</blueprintGraphicData>
 			<fullGraveGraphicData>
-				<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_AngledCorner_FullAtlas</texPath>
+				<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_FullAtlas</texPath>
+			</fullGraveGraphicData>
+		</building>
+	</ThingDef>
+	<!-- ==========[ESCP_Dunmer_AshBurialPit_RoundedCorner]========== -->
+	<ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
+		<defName>ESCP_Dunmer_AshBurialPit_RoundedCorner</defName>
+		<label>ash burial pit (rounded corner)</label>
+		<graphicData>
+			<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_Atlas</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_MenuIcon</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_BlueprintAtlas</texPath>
+			</blueprintGraphicData>
+			<fullGraveGraphicData>
+				<texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_FullAtlas</texPath>
 			</fullGraveGraphicData>
 		</building>
 	</ThingDef>

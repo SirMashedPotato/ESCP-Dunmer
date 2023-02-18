@@ -8,6 +8,7 @@
 		<tracker Class="Mashed_VanillaAchievementsExpanded.BuildingTracker_WithDefList">
 			<defList>
 				<li>ESCP_Dunmer_AshBurialPit_SquareCorner</li>
+				<li>ESCP_Dunmer_AshBurialPit_RoundedCorner</li>
 			</defList>
 			<count>10</count>
 		</tracker>
