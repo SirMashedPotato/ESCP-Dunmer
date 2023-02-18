@@ -448,9 +448,9 @@
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3E]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2Base">
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3E</defName>
-		<title>Telvanni reclusive Wizard</title>
+		<title>reclusive Telvanni Wizard</title>
 		<titleShort>Wizard</titleShort>
-		<baseDesc>While most Telvanni Wizards had their own mushroom towers built, [PAWN_nameDef] decided to claim a Velothi tower for [PAWN_objective]self. And why shouldn't [PAWN_pronoun] have been allowed to, after all it's not like anyone else was living there. Sure there was the slight issue said tower wasn't in Telvanni controlled territory, but it's not like anyone actually tried to force [PAWN_objective] to leave.</baseDesc>
+		<baseDesc>While most Telvanni Wizards had their own mushroom towers built, [PAWN_nameDef] decided to claim a Velothi tower for [PAWN_objective]self. And why shouldn't [PAWN_pronoun] have been allowed to, after all it's not like anyone else was living there. Sure there was the slight issue said tower doesn't currently reside in Telvanni controlled territory, but it's not like anyone actually tried to force [PAWN_objective] to leave.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<li>
@@ -466,6 +466,30 @@
 			<min>200</min>
 			<max>999</max>
 		</bioAgeRange>
+		<linkedBackstory>ESCP_DunmerBackstory_ChildhoodIntellectualA</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3F]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT2Base">
+		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3F</defName>
+		<title>ancient Telvanni Wizard</title>
+		<titleShort>Wizard</titleShort>
+		<baseDesc>Potentially one of the oldest Telvanni Wizards around, [PAWN_nameDef] has rightfully earned [PAWN_possessive] position. Many have tried to trick [PAWN_objective] to reveal [PAWN_possessive] true age. Those that are lucky get a vague reply, those that are unlucky are usually just ignored. As unlike other high ranking members of House Telvanni, [PAWN_nameDef] has far better things to do than punish anyone that annoys PAWN_objective].</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>12</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<bioAgeRange>
+			<min>200</min>
+			<max>999</max>
+		</bioAgeRange>
+		<linkedBackstory>ESCP_DunmerBackstory_ChildhoodIntellectualA</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Special] ==================== -->
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniSpecialA]========== -->
@@ -496,6 +520,7 @@
 		</workDisables>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>5</femaleCommonality>
+		<linkedBackstory>ESCP_DunmerBackstory_ChildhoodSocialB</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniSpecialB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniBase">

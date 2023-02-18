@@ -57,27 +57,6 @@
 	</AlienRace.AlienBackstoryDef>
 	-->
 	<!-- ==================== [ANIMALS] ==================== -->
-	<!-- ==========[ESCP_DunmerBackstory_ChildhoodAnimalsA]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_ChildhoodBase">
-		<defName>ESCP_DunmerBackstory_ChildhoodAnimalsA</defName>
-		<title>reclusive child</title>
-		<titleShort>recluse</titleShort>
-		<baseDesc>[PAWN_nameDef] always preferred the company of [PAWN_possessive] tribes guar and nix hounds, and could often be found crafting various trinkets to adorn the beasts.</baseDesc>
-		<skillGains>
-			<li>
-				<key>Animals</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-2</value>
-			</li>
-		</skillGains>
-	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [ARTISTIC] ==================== -->
 	<!-- ==================== [CONSTRUCTION] ==================== -->
 	<!-- ==================== [COOKING] ==================== -->
