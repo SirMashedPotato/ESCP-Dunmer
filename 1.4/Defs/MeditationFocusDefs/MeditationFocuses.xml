@@ -4,12 +4,30 @@
 		<defName>ESCP_DunmerAncestralMeditation</defName>
 		<label>ancestral</label>
 		<requiredBackstoriesAny>
+			<!-- Standard Dunmer childhoods -->
 			<li>
 				<categoryName>ESCP_DunmerBackstory_Childhood</categoryName>
 				<slot>Childhood</slot>
 			</li>
 			<li>
 				<categoryName>ESCP_DunmerAshlanderBackstory_Childhood</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<!-- Biotech Dunmer childhoods -->
+			<li>
+				<categoryName>ESCP_DunmerBiotechBackstory_Newborn</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_DunmerBiotechBackstory_Child</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_DunmerBiotechBackstory_Adult</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_DunmerBiotechBackstory_VatGrown</categoryName>
 				<slot>Childhood</slot>
 			</li>
 		</requiredBackstoriesAny>
