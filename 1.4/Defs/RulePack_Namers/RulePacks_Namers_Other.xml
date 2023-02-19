@@ -2,13 +2,13 @@
 <Defs>
 	<!-- ==========[ESCP_AchievementDunmer_BuildAshBurialPits]========== -->
 	<RulePackDef>
-		<defName>ESCP_ArtDescription_AshBurialPit</defName>
+		<defName>ESCP_Dunmer_ArtDescription_BurialUrn</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>physical_description_root->The ash burial pit is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
-				<li>physical_description_root->The ash burial pit bears a [depiction] of [image]. [desc_sentence_group]</li>
-				<li>physical_description_root->The ash burial pit is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
-				<li>physical_description_root->An engraving on this ash burial pit [depicts] [image]. [desc_sentence_group]</li>
+				<li>physical_description_root->The burial urn is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+				<li>physical_description_root->The burial urn bears a [depiction] of [image]. [desc_sentence_group]</li>
+				<li>physical_description_root->The burial urn is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+				<li>physical_description_root->An engraving on this burial urn [depicts] [image]. [desc_sentence_group]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

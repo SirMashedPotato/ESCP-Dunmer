@@ -135,7 +135,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>ESCP_SothaSilBlessing</defName>
+				<defName>ESCP_Dunmer_SothaSilBlessing</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>

@@ -4,7 +4,7 @@
   <!-- blessings -->
 
   <TraitDef>
-    <defName>ESCP_AlmalexiaBlessing</defName>
+    <defName>ESCP_Dunmer_AlmalexiaBlessing</defName>
     <commonality>0.05</commonality>
     <degreeDatas>
       <li>
@@ -20,7 +20,7 @@
   </TraitDef>
   
   <TraitDef>
-    <defName>ESCP_VivecBlessing</defName>
+    <defName>ESCP_Dunmer_VivecBlessing</defName>
     <commonality>0.05</commonality>
     <degreeDatas>
       <li>
@@ -36,7 +36,7 @@
   </TraitDef>
   
   <TraitDef>
-    <defName>ESCP_SothaSilBlessing</defName>
+    <defName>ESCP_Dunmer_SothaSilBlessing</defName>
     <commonality>0.05</commonality>
     <degreeDatas>
       <li>
@@ -52,7 +52,7 @@
   </TraitDef>
   
   <TraitDef>
-    <defName>ESCP_AncestralBlessing</defName>
+    <defName>ESCP_Dunmer_AncestralBlessing</defName>
     <commonality>0.05</commonality>
     <degreeDatas>
       <li>

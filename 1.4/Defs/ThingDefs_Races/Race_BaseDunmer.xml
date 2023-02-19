@@ -494,7 +494,7 @@
 			</thoughtSettings>
 			<raceRestriction>
 				<traitList>
-					<li>ESCP_AncestralBlessing</li>
+					<li>ESCP_Dunmer_AncestralBlessing</li>
 				</traitList>
 				<blackTraitList>
 					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshAdapted</li>

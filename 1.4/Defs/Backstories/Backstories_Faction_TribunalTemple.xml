@@ -32,7 +32,7 @@
 		</spawnCategories>
 		<forcedTraitsChance>
 			<li>
-				<defName>ESCP_VivecBlessing</defName>
+				<defName>ESCP_Dunmer_VivecBlessing</defName>
 				<chance>25</chance>
 			</li>
 		</forcedTraitsChance>
@@ -420,7 +420,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>ESCP_AlmalexiaBlessing</defName>
+				<defName>ESCP_Dunmer_AlmalexiaBlessing</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>

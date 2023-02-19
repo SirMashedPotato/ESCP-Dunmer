@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="BuildingBase">
-		<defName>ESCP_DunmerAshlanderMummy</defName>
-		<label>mummy</label>
+		<defName>ESCP_Dunmer_AshlanderMummy</defName>
+		<label>Ashlander mummy</label>
 		<description>A location prepared for the creation of a mummy. Ashlanders prefer to mummify their deceased, and place them in a burial cavern. These burial sites are often very extensive, compromised of winding corridors and large caverns. Unlike most other cultures, ashlanders do not wrap their deceased, instead they preserve them in ash salts.\n\nThe process behind creating these mummies is a closely guarded secret of the Ashlanders.</description>
 		<thingClass>Building_Grave</thingClass>
 		<graphicData>
@@ -10,6 +10,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
+		<uiIconPath>Things/Building/Misc/ESCP_DunmerAshlanderMummy/ESCP_DunmerAshlanderMummy_Full_north</uiIconPath>
 		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerAshlanderStyle</dominantStyleCategory>
 		<constructEffect>ConstructDirt</constructEffect>
 		<altitudeLayer>Building</altitudeLayer>
@@ -18,12 +19,11 @@
 		<tickerType>Rare</tickerType>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
-			<WorkToBuild>800</WorkToBuild>
+			<WorkToBuild>0</WorkToBuild>
 			<MeditationFocusStrength>0.10</MeditationFocusStrength>
 		</statBases>
-		<maxTechLevelToBuild>Neolithic</maxTechLevelToBuild>
 		<passability>PassThroughOnly</passability>
-		<defaultPlacingRot>South</defaultPlacingRot>
+		<defaultPlacingRot>North</defaultPlacingRot>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<expandHomeArea>true</expandHomeArea>
@@ -63,6 +63,8 @@
 		<comps>
 			<li Class="ESCP_RaceTools.CompProperties_DunmerGraveWhisper">
 				<soundDef>ESCP_DunmerGraveWhispering</soundDef>
+				<onlyFull>true</onlyFull>
+				<chance>0.1</chance>
 			</li>
 			<li Class="CompProperties_AssignableToPawn">
 				<drawAssignmentOverlay>false</drawAssignmentOverlay>
@@ -82,12 +84,11 @@
 					</li>
 					<li Class="FocusStrengthOffset_NearbyGraves">
 						<defs>
-							<li>ESCP_DunmerAshlanderMummy</li>
-							<li>ESCP_DunmerBurialUrn</li>
+							<li>ESCP_Dunmer_AshlanderMummy</li>
 						</defs>
 						<offsetPerBuilding>0.01</offsetPerBuilding>
 						<radius>9.9</radius>
-						<maxBuildings>4</maxBuildings>
+						<maxBuildings>10</maxBuildings>
 						<focusPerFullGrave>0.01</focusPerFullGrave>
 						<explanationKey>MeditationFocusPerGrave</explanationKey>
 						<explanationKeyAbstract>MeditationFocusPerGraveAbstract</explanationKeyAbstract>
@@ -102,5 +103,6 @@
 			<spectateDistance>1</spectateDistance>
 			<allowedSpectateSides>Vertical</allowedSpectateSides>
 		</ritualFocus>
+		<designationHotKey>Misc12</designationHotKey>
 	</ThingDef>
 </Defs>

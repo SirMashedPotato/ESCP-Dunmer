@@ -11,9 +11,9 @@
 		<alienRace>
 			<raceRestriction>
 				<traitList>
-					<li>ESCP_AlmalexiaBlessing</li>
-					<li>ESCP_VivecBlessing</li>
-					<li>ESCP_SothaSilBlessing</li>
+					<li>ESCP_Dunmer_AlmalexiaBlessing</li>
+					<li>ESCP_Dunmer_VivecBlessing</li>
+					<li>ESCP_Dunmer_SothaSilBlessing</li>
 				</traitList>
 			</raceRestriction>
 		</alienRace>
