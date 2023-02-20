@@ -121,7 +121,7 @@
 	<!-- ==========[ESCP_Dunmer_AncestralProtection]========== -->
 	<HediffDef ParentName="ESCP_DunmerAncestralBuffBase">
 		<defName>ESCP_Dunmer_AncestralProtection</defName>
-		<label>ancestral healing</label>
+		<label>ancestral protection</label>
 		<description>Using knowledge imparted by the ancestors, this pawn is more resistant to damage from all sources.</description>
 		<stages>
 			<li>
@@ -150,7 +150,7 @@
 	<!-- ==========[ESCP_Dunmer_AncestralSight]========== -->
 	<HediffDef ParentName="ESCP_DunmerAncestralBuffBase">
 		<defName>ESCP_Dunmer_AncestralSight</defName>
-		<label>ancestral healing</label>
+		<label>ancestral sight</label>
 		<description>Using knowledge imparted by the ancestors, this pawn is more sensitive to psychic effects.</description>
 		<stages>
 			<li>
@@ -179,7 +179,7 @@
 	<!-- ==========[ESCP_Dunmer_AncestralWisdom]========== -->
 	<HediffDef ParentName="ESCP_DunmerAncestralBuffBase">
 		<defName>ESCP_Dunmer_AncestralWisdom</defName>
-		<label>ancestral healing</label>
+		<label>ancestral wisdom</label>
 		<description>Using knowledge imparted by the ancestors, this pawn will gain skill experience faster.</description>
 		<stages>
 			<li>
@@ -244,7 +244,7 @@
 	<!-- ==========[ESCP_Dunmer_AncestralWrath]========== -->
 	<HediffDef ParentName="ESCP_DunmerAncestralBuffBase">
 		<defName>ESCP_Dunmer_AncestralWrathHediff</defName>
-		<label>overwhelmed</label>
+		<label>ancestral wrath</label>
 		<description>This pawn has been mentally overwhelmed by the ancestors. Their manipulation and moving have been drained.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>true</isBad>
