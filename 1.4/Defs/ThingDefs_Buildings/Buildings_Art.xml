@@ -17,6 +17,10 @@
 			<SellPriceFactor>1.10</SellPriceFactor>
 			<MeditationFocusStrength>0.0</MeditationFocusStrength>
 		</statBases>
+		<researchPrerequisites>
+			<li>ESCP_DunmerBurialPit</li>
+		</researchPrerequisites>
+		<defaultPlacingRot>North</defaultPlacingRot>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
@@ -126,13 +130,14 @@
 		<label>Dunmeri saint shrine</label>
 		<description>A shrine in the traditional Dunmeri style, often used to commemorate heroic and selfless deeds.</description>
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Building/Art/Sculptures/ESCP_DunmerSaintShrine/ESCP_DunmerSaintShrine</texPath>
-			<drawOffset>(0,0,0.2)</drawOffset>
-			<drawSize>(1.2,1.2)</drawSize>
+			<drawOffset>(0,0,0.3)</drawOffset>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<fillPercent>0.35</fillPercent>
-		<rotatable>true</rotatable>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>3</Mass>
@@ -145,7 +150,5 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
-		<researchPrerequisites>
-		</researchPrerequisites>
 	</ThingDef>
 </Defs>
