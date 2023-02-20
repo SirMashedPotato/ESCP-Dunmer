@@ -57,6 +57,8 @@
 			<li>ESCP_Dunmer_AncestralSight</li>
 			<li>ESCP_Dunmer_AncestralWisdom</li>
 			<li>ESCP_Dunmer_AncestralWrath</li>
+			<li MayRequire="SirMashedPotato.MorrowRim.Bonewalkers">MorrowRim_BonewalkerAbility_Pacify</li>
+			<li MayRequire="SirMashedPotato.MorrowRim.Bonewalkers">MorrowRim_BonewalkerAbility_PacifyMass</li>
 		</grantedAbilities>
 		<roleDisabledWorkTags>
 			<li>Crafting</li>
