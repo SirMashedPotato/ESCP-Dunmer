@@ -9,12 +9,11 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
 				<sharedBackstoryCategories>
-					<!--<li>ESCP_DunmerDagothBackstory</li>-->
-					<li>ESCP_DunmerDresBackstory</li>
-					<li>ESCP_DunmerHlaaluBackstory</li>
-					<li>ESCP_DunmerIndorilBackstory</li>
-					<li>ESCP_DunmerRedoranBackstory</li>
-					<li>ESCP_DunmerTelvanniBackstory</li>
+					<li>ESCP_DunmerGreatHouse_Dres_Adulthood</li>
+					<li>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</li>
+					<li>ESCP_DunmerGreatHouse_Indoril_Adulthood</li>
+					<li>ESCP_DunmerGreatHouse_Redoran_Adulthood</li>
+					<li>ESCP_DunmerGreatHouse_Telvanni_Adulthood</li>
 				</sharedBackstoryCategories>
 			</li>
 		</modExtensions>
@@ -51,8 +50,8 @@
 		<defName>ESCP_DunmerOpinion_DresHlaalu</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerDresBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerHlaaluBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Dres_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -67,8 +66,8 @@
 		<defName>ESCP_DunmerOpinion_DresIndoril</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerDresBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerIndorilBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Dres_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Indoril_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -83,8 +82,8 @@
 		<defName>ESCP_DunmerOpinion_DresRedoran</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerDresBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerRedoranBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Dres_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Redoran_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -99,8 +98,8 @@
 		<defName>ESCP_DunmerOpinion_DresTelvanni</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerDresBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerTelvanniBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Dres_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Telvanni_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -117,7 +116,7 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
 				<sharedBackstoryCategories>
-					<li>ESCP_DunmerHlaaluBackstory</li>
+					<li>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</li>
 				</sharedBackstoryCategories>
 			</li>
 		</modExtensions>
@@ -136,8 +135,8 @@
 		<defName>ESCP_DunmerOpinion_HlaaluIndoril</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerHlaaluBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerIndorilBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Indoril_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -152,8 +151,8 @@
 		<defName>ESCP_DunmerOpinion_HlaaluRedoran</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerHlaaluBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerRedoranBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Redoran_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -168,8 +167,8 @@
 		<defName>ESCP_DunmerOpinion_HlaaluTelvanni</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerHlaaluBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerTelvanniBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Hlaalu_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Telvanni_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -184,8 +183,8 @@
 		<defName>ESCP_DunmerOpinion_IndorilRedoran</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerIndorilBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerRedoranBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Indoril_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Redoran_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -200,8 +199,8 @@
 		<defName>ESCP_DunmerOpinion_IndorilTelvanni</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerIndorilBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerTelvanniBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Indoril_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Telvanni_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -216,8 +215,8 @@
 		<defName>ESCP_DunmerOpinion_RedoranTelvanni</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerRedoranBackstory</backstoryCategoryA>
-				<backstoryCategoryB>ESCP_DunmerTelvanniBackstory</backstoryCategoryB>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Redoran_Adulthood</backstoryCategoryA>
+				<backstoryCategoryB>ESCP_DunmerGreatHouse_Telvanni_Adulthood</backstoryCategoryB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -234,7 +233,7 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
 				<sharedBackstoryCategories>
-					<li>ESCP_DunmerTelvanniBackstory</li>
+					<li>ESCP_DunmerGreatHouse_Telvanni_Adulthood</li>
 				</sharedBackstoryCategories>
 			</li>
 		</modExtensions>
@@ -253,7 +252,7 @@
 		<defName>ESCP_DunmerOpinion_TelvanniMagesGuild</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<backstoryCategoryA>ESCP_DunmerTelvanniBackstory</backstoryCategoryA>
+				<backstoryCategoryA>ESCP_DunmerGreatHouse_Telvanni_Adulthood</backstoryCategoryA>
 				<backstoryCategoryB>ESCP_GenericBackstory_AdulthoodMagesGuild</backstoryCategoryB>
 			</li>
 		</modExtensions>
