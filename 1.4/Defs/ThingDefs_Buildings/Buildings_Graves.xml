@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ==========[ESCP_Dunmer_Grave_Base]========== -->
 	<ThingDef Name="ESCP_Dunmer_Grave_Base" ParentName="BuildingBase" Abstract="true">
-		<thingClass>Building_Sarcophagus</thingClass>
+		<thingClass>ESCP_RaceTools.Building_AshBurialPit</thingClass>
 		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<tickerType>Rare</tickerType>
 		<pathCost>50</pathCost>
@@ -136,7 +136,7 @@
 	<ThingDef ParentName="ESCP_Dunmer_Grave_Base">
 		<defName>ESCP_Dunmer_BurialUrn</defName>
 		<label>Dunmer burial urn</label>
-		<description>While Dunmer usually spread the ashes and bones of the deceased into burial pits, they do also make use of burial urns. These burial urns are often found reserved for those of higher standing, and are usually placed in family tombs.</description>
+		<description>While Dunmer usually spread the ashes and bones of the deceased into burial pits, they do also make use of burial urns. These burial urns are often found reserved for those of higher standing, and are usually placed in family tombs.\n\nCorpses buried in these will be cremated in the process, leaving only their bones and ash behind. Any worn apparel and held items will be placed nearby.</description>
 		<modExtensions>
 			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Offsetter">
 				<mirror>False</mirror>
@@ -198,7 +198,7 @@
 	</ThingDef>
 	<!-- ==========[ESCP_Dunmer_AshBurialPit_Base]========== -->
 	<ThingDef Name="ESCP_Dunmer_AshBurialPit_Base" ParentName="ESCP_Dunmer_Grave_Base" Abstract="true">
-		<description>An ash burial pit, made in the traditional Dunmeri style. Dunmer very rarely bury the dead in graves or sarcophagi. Instead they cremate the bodies and spread the ashes and bones into a burial pit in a family tomb, thus returning the dead to the ash they came from.</description>
+		<description>An ash burial pit, made in the traditional Dunmeri style. Dunmer very rarely bury the dead in graves or sarcophagi. Instead they cremate the bodies and spread the ashes and bones into a burial pit in a family tomb, thus returning the dead to the ash they came from.\n\nCorpses buried in these will be cremated in the process, leaving only their bones and ash behind. Any worn apparel and held items will be placed nearby.</description>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
 		<staticSunShadowHeight>0.0</staticSunShadowHeight>
