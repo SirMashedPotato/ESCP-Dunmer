@@ -196,7 +196,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Cursed</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
 		</requiredMemes>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
