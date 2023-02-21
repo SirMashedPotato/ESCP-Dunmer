@@ -212,7 +212,6 @@
 		</colorSpectrum>
 		<naturalEnemy>true</naturalEnemy>
 		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 		</requiredMemes>
