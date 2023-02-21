@@ -1,26 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- base -->
-	<ThingDef ParentName="BuildingBase" Name="ESCP_SculptureDunmerShrineBase" Abstract="True">
+	<!-- ==========[ESCP_Dunmer_Shrine_Base]========== -->
+	<ThingDef ParentName="BuildingBase" Name="ESCP_Dunmer_Shrine_Base" Abstract="True">
 		<thingClass>Building_Art</thingClass>
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<useHitPoints>true</useHitPoints>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 		<thingCategories>
 			<li>BuildingsArt</li>
 		</thingCategories>
+		<researchPrerequisites>
+			<li>ESCP_DunmerBurialPit</li>
+		</researchPrerequisites>
+		
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<tradeTags>
+			<li>Art</li>
+		</tradeTags>
 		<statBases>
 			<Flammability>1.0</Flammability>
 			<SellPriceFactor>1.10</SellPriceFactor>
 			<MeditationFocusStrength>0.0</MeditationFocusStrength>
 		</statBases>
-		<researchPrerequisites>
-			<li>ESCP_DunmerBurialPit</li>
-		</researchPrerequisites>
-		<defaultPlacingRot>North</defaultPlacingRot>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Artistic</workSkill>
+			<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+			<effectWorking>Sculpt</effectWorking>
+			<soundWorking>Recipe_Sculpt</soundWorking>
+			<recipeUsers>
+				<li>TableSculpting</li>
+			</recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Plasteel</li>
+					<li>Jade</li>
+					<li>Uranium</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+		</recipeMaker>
+		<placeWorkers>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
@@ -58,10 +89,10 @@
 					</li>
 					<li Class="FocusStrengthOffset_BuildingDefsWithQuality">
 						<defs>
-							<li>ESCP_DunmerSaintShrine</li>
+							<li>ESCP_Dunmer_SaintShrine</li>
 						</defs>
 						<radius>9.9</radius>
-						<maxBuildings>8</maxBuildings>
+						<maxBuildings>3</maxBuildings>
 						<focusPerQuality>
 							<points>
 								<li>(0,0.0)</li>
@@ -87,46 +118,14 @@
 			</li>
 			<li Class="CompProperties_Styleable"/>
 		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
-		</placeWorkers>
-		<inspectorTabs>
-			<li>ITab_Art</li>
-		</inspectorTabs>
-		<tradeTags>
-			<li>Art</li>
-		</tradeTags>
-		<recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Artistic</workSkill>
-			<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-			<effectWorking>Sculpt</effectWorking>
-			<soundWorking>Recipe_Sculpt</soundWorking>
-			<recipeUsers>
-				<li>TableSculpting</li>
-			</recipeUsers>
-			<defaultIngredientFilter>
-				<categories>
-					<li>Root</li>
-				</categories>
-				<disallowedThingDefs>
-					<li>Gold</li>
-					<li>Silver</li>
-					<li>Plasteel</li>
-					<li>Jade</li>
-					<li>Uranium</li>
-				</disallowedThingDefs>
-			</defaultIngredientFilter>
-		</recipeMaker>
-		<!--<ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSculpture</ideoBuildingNamerBase>-->
 		<ritualFocus>
 			<spectateDistance>2</spectateDistance>
 			<allowedSpectateSides>Down</allowedSpectateSides>
 		</ritualFocus>
 	</ThingDef>
-	<!-- -->
-	<ThingDef ParentName="ESCP_SculptureDunmerShrineBase">
-		<defName>ESCP_DunmerSaintShrine</defName>
+	<!-- ==========[ESCP_Dunmer_SaintShrine]========== -->
+	<ThingDef ParentName="ESCP_Dunmer_Shrine_Base">
+		<defName>ESCP_Dunmer_SaintShrine</defName>
 		<label>Dunmeri saint shrine</label>
 		<description>A shrine in the traditional Dunmeri style, often used to commemorate heroic and selfless deeds.</description>
 		<graphicData>

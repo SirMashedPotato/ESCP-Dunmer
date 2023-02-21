@@ -98,7 +98,7 @@
 					</li>
 					<li Class="FocusStrengthOffset_BuildingDefsWithQuality">
 						<defs>
-							<li>ESCP_DunmerSaintShrine</li>
+							<li>ESCP_Dunmer_SaintShrine</li>
 						</defs>
 						<radius>9.9</radius>
 						<maxBuildings>3</maxBuildings>
