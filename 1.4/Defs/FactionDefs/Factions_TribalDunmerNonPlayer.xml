@@ -29,6 +29,7 @@
 		<requiredMemes/>
 		<caravanTraderKinds>
 			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshlandsTrader</li>
+			<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_DunmerAlcoholTrader</li>
 		</caravanTraderKinds>
 		<raidLootMaker>ESCP_DunmerRaidLootMaker</raidLootMaker>
 		<pawnGroupMakers>
