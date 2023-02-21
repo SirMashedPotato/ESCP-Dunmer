@@ -15,7 +15,6 @@
 		<researchPrerequisites>
 			<li>ESCP_DunmerBurialPit</li>
 		</researchPrerequisites>
-		
 		<inspectorTabs>
 			<li>ITab_Art</li>
 		</inspectorTabs>
