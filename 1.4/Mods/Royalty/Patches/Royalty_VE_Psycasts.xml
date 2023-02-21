@@ -7,7 +7,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/MeditationFocusDef[defName="ESCP_DunmerAncestral"]</xpath>
+					<xpath>Defs/MeditationFocusDef[defName="ESCP_DunmerAncestralMeditation"]</xpath>
 					<value>
 						<li Class="VanillaPsycastsExpanded.MeditationFocusExtension">
 							<icon>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</icon>
