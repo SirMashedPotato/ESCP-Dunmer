@@ -3,6 +3,11 @@
 	<MeditationFocusDef>
 		<defName>ESCP_DunmerAncestralMeditation</defName>
 		<label>ancestral</label>
+		<modExtensions>
+            <li Class="VanillaPsycastsExpanded.MeditationFocusExtension" MayRequire="VanillaExpanded.VPsycastsE">
+                <icon>World/WorldObjects/Expanding/ESCP_DunmerReaverSettlement</icon>
+            </li>
+        </modExtensions>
 		<requiredBackstoriesAny>
 			<!-- Standard Dunmer childhoods -->
 			<li>
