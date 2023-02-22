@@ -20,6 +20,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
 					<li>ESCP_DunmerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -46,6 +49,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
 					<li>ESCP_DunmerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -72,6 +78,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
 					<li>ESCP_DunmerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -98,6 +107,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
 					<li>ESCP_DunmerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>

@@ -19,6 +19,9 @@
 				<categoriesAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -120,11 +123,21 @@
 		<defName>ESCP_DunmerAshlander_Tribal_Hunter</defName>
 		<label>hunter</label>
 		<combatPower>60</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categoriesAdulthood Inherit="False">
+				<categoriesChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
 					<li>TribalHunter</li>
+					<li>ESCP_DunmerAshlanderBackstory_AdulthoodHunter</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
@@ -160,11 +173,20 @@
 				<bond>true</bond>
 			</li>
 		</modExtensions>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categoriesAdulthood Inherit="False">
+				<categoriesChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>

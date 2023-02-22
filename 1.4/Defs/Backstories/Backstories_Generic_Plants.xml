@@ -16,6 +16,9 @@
 		<workDisables>
 			<li>Cleaning</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerBackstory_Adulthood_PlantsB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Dunmer_AdulthoodBase">
@@ -38,6 +41,9 @@
 		<workDisables>
 			<li>Animals</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -72,6 +78,9 @@
 				<chance>25</chance>
 			</li>
 		</forcedTraitsChance>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -96,6 +105,9 @@
 		<workDisables>
 			<li>Animals</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -117,6 +129,9 @@
 				<value>4</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -138,6 +153,9 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -158,6 +176,9 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>70</maleCommonality>
 		<femaleCommonality>70</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>

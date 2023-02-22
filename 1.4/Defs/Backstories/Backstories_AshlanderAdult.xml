@@ -286,6 +286,9 @@
 				<value>4</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [PLANTS] ==================== -->
 	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodPlantsA]========== -->
@@ -302,6 +305,9 @@
 				<value>6</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodPlantsB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
@@ -321,6 +327,9 @@
 				<value>4</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [SHOOTING] ==================== -->
 	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodShootingA]========== -->
@@ -341,6 +350,9 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_AdulthoodHunter</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodShootingB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_DunmerAshlander_AdulthoodBase">
@@ -356,6 +368,9 @@
 				<value>6</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerAshlanderBackstory_AdulthoodHunter</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [SOCIAL] ==================== -->
 	<!-- ==========[ESCP_DunmerAshlanderBackstory_AdulthoodSocialA]========== -->

@@ -11,6 +11,14 @@
 				<categoriesChildhood>
 					<li>ESCP_DunmerBackstory_Childhood</li>
 				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Miner</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalMiner</li>
+					<li>ESCP_DunmerBackstory_AdulthoodMiner</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -28,6 +36,14 @@
 				<categoriesChildhood>
 					<li>ESCP_DunmerBackstory_Childhood</li>
 				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Hunter</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
+					<li>ESCP_DunmerBackstory_AdulthoodHunter</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -45,6 +61,14 @@
 				<categoriesChildhood>
 					<li>ESCP_DunmerBackstory_Childhood</li>
 				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Logger</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalLogger</li>
+					<li>ESCP_DunmerBackstory_AdulthoodLogger</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -60,8 +84,16 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
-					<li>ESCP_DunmerBackstory_Childhood</li>
+					<li>ESCP_DunmerBackstory_Farmer</li>
 				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Miner</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalFarmer</li>
+					<li>ESCP_DunmerBackstory_AdulthoodFarmer</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerBackstory_Exclusion</li>
 				</excludeAdulthood>

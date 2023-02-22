@@ -14,6 +14,9 @@
 					<li>Outlander</li>
 					<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -33,6 +36,9 @@
 				<categoriesAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -52,6 +58,9 @@
 				<categoriesAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_DunmerAshlanderBackstory_Exclusion</li>
 				</excludeAdulthood>

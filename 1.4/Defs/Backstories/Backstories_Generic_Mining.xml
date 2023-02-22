@@ -18,6 +18,9 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -45,6 +48,9 @@
 				<chance>15</chance>
 			</li>
 		</forcedTraitsChance>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -84,6 +90,9 @@
 				<chance>25</chance>
 			</li>
 		</forcedTraitsChance>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -107,6 +116,9 @@
 		<workDisables>
 			<li>PlantWork</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>70</maleCommonality>
 		<femaleCommonality>70</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
