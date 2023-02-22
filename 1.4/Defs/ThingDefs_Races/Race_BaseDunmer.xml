@@ -470,6 +470,10 @@
 						<original>MorrowRim_ashCovered</original>
 						<replacer>ESCP_DunmerAshCovered</replacer>
 					</li>
+					<li MayRequire="SirMashedPotato.MorrowRim.Scuttle">
+						<original>MorrowRim_AteScuttleHuman</original>
+						<replacer>ESCP_DunmerAteScuttle</replacer>
+					</li>
 				</replacerList>
 				<butcherThoughtSpecific>
 					<li>
@@ -493,6 +497,9 @@
 				</ateThoughtSpecific>
 			</thoughtSettings>
 			<raceRestriction>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Dunmer</li>
+				</blackGeneList>
 				<traitList>
 					<li>ESCP_Dunmer_AncestralBlessing</li>
 				</traitList>

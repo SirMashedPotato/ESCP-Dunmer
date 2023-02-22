@@ -112,4 +112,16 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	<!-- ==========[ESCP_DunmerAteScuttle]========== -->
+	<ThoughtDef>
+		<defName>ESCP_DunmerAteScuttle</defName>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate scuttle</label>
+				<description>So delicious, I can't wait to have more.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>
