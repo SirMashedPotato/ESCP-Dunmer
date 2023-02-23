@@ -11,6 +11,5 @@
 		<defName>ESCP_AchievementReward_PawnJoins_DunmerAshlander</defName>
 		<label>Dunmer Ashlander joins</label>
 		<incident>ESCP_AchievementReward_PawnJoinsIncident_DunmerAshlander</incident>
-		<cost>150</cost>
 	</AchievementsExpanded.Reward_MapIncident>
 </Defs>
