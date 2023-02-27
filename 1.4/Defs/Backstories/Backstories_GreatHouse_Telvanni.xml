@@ -473,7 +473,7 @@
 		<defName>ESCP_DunmerBackstory_Adulthood_GreatHouseTelvanniT3F</defName>
 		<title>ancient Telvanni Wizard</title>
 		<titleShort>Wizard</titleShort>
-		<baseDesc>Potentially one of the oldest Telvanni Wizards around, [PAWN_nameDef] has rightfully earned [PAWN_possessive] position. Many have tried to trick [PAWN_objective] to reveal [PAWN_possessive] true age. Those that are lucky get a vague reply, those that are unlucky are usually just ignored. As unlike other high ranking members of House Telvanni, [PAWN_nameDef] has far better things to do than punish anyone that annoys PAWN_objective].</baseDesc>
+		<baseDesc>Potentially one of the oldest Telvanni Wizards around, [PAWN_nameDef] has rightfully earned [PAWN_possessive] position. Many have tried to trick [PAWN_objective] to reveal [PAWN_possessive] true age. Those that are lucky get a vague reply, those that are unlucky are usually just ignored. As unlike other high ranking members of House Telvanni, [PAWN_nameDef] has far better things to do than punish anyone that annoys [PAWN_objective].</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
