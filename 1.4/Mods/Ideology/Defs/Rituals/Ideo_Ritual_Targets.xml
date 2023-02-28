@@ -2,6 +2,6 @@
 <Defs>
 	<RitualObligationTargetFilterDef>
 		<defName>ESCP_FilledDunmerGrave</defName>
-		<workerClass>ESCP_RaceTools.RitualObligationTargetWorker_FilledDunmerGrave</workerClass> <!-- TODO -->
+		<workerClass>ESCP_RaceTools.RitualObligationTargetWorker_FilledDunmerGrave</workerClass> 
 	</RitualObligationTargetFilterDef>
 </Defs>
