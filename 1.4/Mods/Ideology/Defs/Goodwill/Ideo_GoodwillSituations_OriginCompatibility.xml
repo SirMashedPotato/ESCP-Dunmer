@@ -9,10 +9,10 @@
 		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
 		<naturalGoodwillOffset>30</naturalGoodwillOffset>
 	</GoodwillSituationDef>
-	<!-- ==========[ESCP_ReclemationsOrigin_ReclemationsOrigin]========== -->
+	<!-- ==========[ESCP_ReclamationsOrigin_ReclamationsOrigin]========== -->
 	<GoodwillSituationDef>
-		<defName>ESCP_ReclemationsOrigin_ReclemationsOrigin</defName>
-		<label>Reclemations origin agreement</label>
+		<defName>ESCP_ReclamationsOrigin_ReclamationsOrigin</defName>
+		<label>Reclamations origin agreement</label>
 		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
 		<meme>ESCP_Structure_OriginGoodDaedra</meme>
 		<otherMeme>ESCP_Structure_OriginGoodDaedra</otherMeme>
@@ -36,10 +36,10 @@
 		<otherMeme>ESCP_Structure_OriginNerevarine</otherMeme>
 		<naturalGoodwillOffset>30</naturalGoodwillOffset>
 	</GoodwillSituationDef>
-	<!-- ==========[ESCP_NerevarineOrigin_ReclemationsOrigin]========== -->
+	<!-- ==========[ESCP_NerevarineOrigin_ReclamationsOrigin]========== -->
 	<GoodwillSituationDef>
-		<defName>ESCP_NerevarineOrigin_ReclemationsOrigin</defName>
-		<label>Nerevarine Cult origin vs Reclemations origin</label>
+		<defName>ESCP_NerevarineOrigin_ReclamationsOrigin</defName>
+		<label>Nerevarine Cult origin vs Reclamations origin</label>
 		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
 		<meme>ESCP_Structure_OriginNerevarine</meme>
 		<otherMeme>ESCP_Structure_OriginGoodDaedra</otherMeme>
@@ -52,12 +52,12 @@
 		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
 		<meme>ESCP_Structure_OriginNerevarine</meme>
 		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
-		<naturalGoodwillOffset>-50</naturalGoodwillOffset>
+		<naturalGoodwillOffset>-80</naturalGoodwillOffset>
 	</GoodwillSituationDef>
-	<!-- ==========[ESCP_ReclemationsOrigin_TribunalOrigin]========== -->
+	<!-- ==========[ESCP_ReclamationsOrigin_TribunalOrigin]========== -->
 	<GoodwillSituationDef>
-		<defName>ESCP_ReclemationsOrigin_TribunalOrigin</defName>
-		<label>Reclemations origin vs Tribunal origin</label>
+		<defName>ESCP_ReclamationsOrigin_TribunalOrigin</defName>
+		<label>Reclamations origin vs Tribunal origin</label>
 		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
 		<meme>ESCP_Structure_OriginGoodDaedra</meme>
 		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
@@ -70,6 +70,70 @@
 		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
 		<meme>ESCP_Structure_OriginHouseOfTroubles</meme>
 		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ====================[Race Tools Origins]==================== -->
+	<!-- ==========[ESCP_DaedricCultOrigin_TribunalOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_DaedricCultOrigin_TribunalOrigin</defName>
+		<label>Daedric Cult origin vs Tribunal origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDaedricCult</meme>
+		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_EightDivinesOrigin_TribunalOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_EightDivinesOrigin_TribunalOrigin</defName>
+		<label>Eight Divines origin vs Tribunal origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDivinesEight</meme>
+		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_NineDivinesOrigin_TribunalOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_NineDivinesOrigin_TribunalOrigin</defName>
+		<label>Nine Divines origin vs Tribunal origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDivinesNine</meme>
+		<otherMeme>ESCP_Structure_OriginTribunal</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_EightDivinesOrigin_ReclamationsOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_EightDivinesOrigin_ReclamationsOrigin</defName>
+		<label>Eight Divines origin vs Reclamations origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDivinesEight</meme>
+		<otherMeme>ESCP_Structure_OriginGoodDaedra</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_NineDivinesOrigin_ReclamationsOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_NineDivinesOrigin_ReclamationsOrigin</defName>
+		<label>Nine Divines origin vs Reclamations origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDivinesNine</meme>
+		<otherMeme>ESCP_Structure_OriginGoodDaedra</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_EightDivinesOrigin_HouseOfTroublesOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_EightDivinesOrigin_HouseOfTroublesOrigin</defName>
+		<label>Eight Divines origin vs HouseOfTroubles origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDivinesEight</meme>
+		<otherMeme>ESCP_Structure_OriginHouseOfTroubles</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	<!-- ==========[ESCP_NineDivinesOrigin_HouseOfTroublesOrigin]========== -->
+	<GoodwillSituationDef>
+		<defName>ESCP_NineDivinesOrigin_HouseOfTroublesOrigin</defName>
+		<label>Nine Divines origin vs HouseOfTroubles origin</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>ESCP_Structure_OriginDivinesNine</meme>
+		<otherMeme>ESCP_Structure_OriginHouseOfTroubles</otherMeme>
 		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
 	</GoodwillSituationDef>
 </Defs>
