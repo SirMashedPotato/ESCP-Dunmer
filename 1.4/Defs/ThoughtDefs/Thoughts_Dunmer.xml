@@ -3,7 +3,6 @@
 	<!-- ==========[ESCP_DunmerColonistLeftUnburied]========== -->
 	<ThoughtDef>
 		<defName>ESCP_DunmerColonistLeftUnburied</defName>
-		<workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
 		<nullifyingTraits>
 			<li>Psychopath</li>
 		</nullifyingTraits>
@@ -20,6 +19,9 @@
 		<defName>ESCP_DunmerKnowBuriedInSarcophagus</defName>
 		<durationDays>1</durationDays>
 		<stackLimit>10</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
 		<stages>
 			<li>
 				<label>buried in sarcophagus</label>
