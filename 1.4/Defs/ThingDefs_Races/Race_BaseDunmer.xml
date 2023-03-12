@@ -459,10 +459,6 @@
 				</cannotReceiveThoughts>
 				<replacerList>
 					<li>
-						<original>ColonistLeftUnburied</original>
-						<replacer>ESCP_DunmerColonistLeftUnburied</replacer>
-					</li>
-					<li>
 						<original>KnowBuriedInSarcophagus</original>
 						<replacer>ESCP_DunmerKnowBuriedInSarcophagus</replacer>
 					</li>
