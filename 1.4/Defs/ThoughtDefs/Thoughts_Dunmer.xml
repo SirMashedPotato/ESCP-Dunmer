@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- ==========[ESCP_DunmerColonistLeftUnburied]========== -->
-	<ThoughtDef>
-		<defName>ESCP_DunmerColonistLeftUnburied</defName>
-		<nullifyingTraits>
-			<li>Psychopath</li>
-		</nullifyingTraits>
-		<stages>
-			<li>
-				<label>colonist left unburied</label>
-				<description>One of us died and we're just leaving them lying in the open. The ancestors will not be happy.</description>
-				<baseMoodEffect>-15</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
 	<!-- ==========[ESCP_DunmerKnowBuriedInSarcophagus]========== -->
 	<ThoughtDef>
 		<defName>ESCP_DunmerKnowBuriedInSarcophagus</defName>
